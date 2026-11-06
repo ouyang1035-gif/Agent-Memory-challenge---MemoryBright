@@ -1,0 +1,77 @@
+{
+ "summary": {
+  "tag": "",
+  "all": {},
+  "narrow": {},
+  "mid": {},
+  "wide": {},
+  "negative": {
+   "n": 5,
+   "avg_n": 0,
+   "probe_hit_rate": 0.0,
+   "abstain_rate": 1.0
+  }
+ },
+ "rows": [
+  {
+   "id": "N-penicillin",
+   "cat": null,
+   "variant": null,
+   "gold_count": 0,
+   "n": 0,
+   "rank": 0,
+   "elapsed": 2.231,
+   "gold_bucket": "negative",
+   "probe": "青霉素",
+   "n_with_probe": 0
+  },
+  {
+   "id": "N-bp",
+   "cat": null,
+   "variant": null,
+   "gold_count": 0,
+   "n": 0,
+   "rank": 0,
+   "elapsed": 0.824,
+   "gold_bucket": "negative",
+   "probe": "血压",
+   "n_with_probe": 0
+  },
+  {
+   "id": "N-dog",
+   "cat": null,
+   "variant": null,
+   "gold_count": 0,
+   "n": 0,
+   "rank": 0,
+   "elapsed": 0.919,
+   "gold_bucket": "negative",
+   "probe": "狗",
+   "n_with_probe": 0
+  },
+  {
+   "id": "N-yoga",
+   "cat": null,
+   "variant": null,
+   "gold_count": 0,
+   "n": 0,
+   "rank": 0,
+   "elapsed": 0.975,
+   "gold_bucket": "negative",
+   "probe": "瑜伽",
+   "n_with_probe": 0
+  },
+  {
+   "id": "N-diabetes",
+   "cat": null,
+   "variant": null,
+   "gold_count": 0,
+   "n": 0,
+   "rank": 0,
+   "elapsed": 0.904,
+   "gold_bucket": "negative",
+   "probe": "糖尿病",
+   "n_with_probe": 0
+  }
+ ]
+}

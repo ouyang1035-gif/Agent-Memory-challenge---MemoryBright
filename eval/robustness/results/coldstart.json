@@ -1,0 +1,46 @@
+{
+  "s0": {
+    "port": "8046",
+    "health_ready_s": 7.82,
+    "first_search_s": 11.79,
+    "first_n": 100,
+    "second_search_s": 4.5,
+    "second_n": 100,
+    "vector_cache_points": 23399,
+    "vector_cache_s": 5.99,
+    "log_size": 2486
+  },
+  "s1": {
+    "port": "8047",
+    "health_ready_s": 8.44,
+    "first_search_s": 19.19,
+    "first_n": 100,
+    "second_search_s": 3.97,
+    "second_n": 100,
+    "vector_cache_points": 24383,
+    "vector_cache_s": 6.26,
+    "log_size": 149156
+  },
+  "s2": {
+    "port": "8048",
+    "health_ready_s": 10.68,
+    "first_search_s": 22.88,
+    "first_n": 100,
+    "second_search_s": 4.54,
+    "second_n": 100,
+    "vector_cache_points": 26383,
+    "vector_cache_s": 5.38,
+    "log_size": 458910
+  },
+  "s3": {
+    "port": "8049",
+    "health_ready_s": 11.65,
+    "first_search_s": 49.07,
+    "first_n": 100,
+    "second_search_s": 0.11,
+    "second_n": 100,
+    "vector_cache_points": 43399,
+    "vector_cache_s": 12.55,
+    "log_size": 59378
+  }
+}

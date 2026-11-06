@@ -1,0 +1,18 @@
+# 环境变量与密钥（严禁提交）
+.env
+
+# 本地数据
+memory.db
+*.db
+*.db-journal
+
+# Qdrant 本地存储（如用本地模式）
+qdrant_storage/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/

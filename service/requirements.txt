@@ -1,0 +1,19 @@
+# FastAPI / Uvicorn
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# 配置
+python-dotenv>=1.0.0
+
+# 向量库
+qdrant-client>=1.9.0
+
+# HTTP 客户端（embedding / llm 调用）
+httpx>=0.27.0
+
+# 数据校验（FastAPI 依赖，显式声明）
+pydantic>=2.6.0
+
+# 链路 2：BM25 混合召回
+rank_bm25>=0.2.2
+jieba>=0.42.1

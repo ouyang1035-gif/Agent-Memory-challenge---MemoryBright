@@ -1,0 +1,2916 @@
+{
+ "_doc": "归因子集：conv-26/30/41 各 20 题（60 题），用于模型 A/B",
+ "top_k": 100,
+ "seed": 42,
+ "items": [
+  {
+   "id": "conv-26_q32",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "single_hop",
+   "query": "What LGBTQ+ events has Caroline participated in?",
+   "answer": "Pride parade, school speech, support group",
+   "choices": [
+    "Political rally, fundraising gala, educational seminar",
+    "Youth mentorship program, college visit, career fair",
+    "Book club meeting, guest speaker event, LGBTQ+ history presentation",
+    "Charity auction, awareness walk, public speaking event",
+    "Art exhibition, panel discussion, historical lecture",
+    "Local festival, cultural celebration, historical tour",
+    "Community theater production, advocacy workshop, online forum discussion",
+    "Volunteer event, awareness campaign, community potluck",
+    "Pride parade, school speech, support group",
+    "Film screening, poetry reading, open mic night"
+   ],
+   "evidence": [
+    "D5:1",
+    "D8:17",
+    "D3:1",
+    "D1:3"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "pride",
+    "parade",
+    "school",
+    "speech",
+    "support",
+    "group"
+   ],
+   "gold_ids": [
+    "001dc928444a451da8e1a5c21aec3414",
+    "0fea7e3657b24a5091e0eceb21e240b2",
+    "20d06a2d3197475dad7cda4cd35952f4",
+    "2345950603964ce5abc60b5a7bda2689",
+    "23aa740954404f4b8eb5fa94d7929063",
+    "289a02318aa8462fafec5433fa8264d4",
+    "3199cfdec5be48f18e1c98314c6c378f",
+    "364c9b12721146358e152020728fb028",
+    "368ad75edd094730981fdcc4691a787d",
+    "379ca7987f90451fbcb7cc0bca9f2a33",
+    "383f6156132042598557ad7c5f08bc8a",
+    "3b04b5d822974a829a97cfd8c209b7e3",
+    "3cd53eff6f4d4c44909bd8aa15943057",
+    "409890889dba489dbd9aeb64a78b4cdf",
+    "4102c7e29e5a41789d3ba93848991834",
+    "41af8a9d7ecd4b1195e13fce42a212e1",
+    "46bb0145e2f543539bfb893fce5a607e",
+    "4d53be39189947dbaa810055a706c627",
+    "53c9dab1d5dd45e9b016d75a3776cd9e",
+    "5b55fba805084a69ae4f6d67680cbb6b",
+    "6002db9b52d74d8db3f2195b8340e340",
+    "613f7486ca814efa8fdbcac68e7f32bd",
+    "632054b2182441738eb7b4bba18af07d",
+    "63c69aa143f6440699027e97c585b030",
+    "6bb76980c3804adfa1cb78e83bfb34f5",
+    "7dc6ab21c8e14517b1232a7f077048cc",
+    "8f6b0cdaaa274500bd8c30412adde31f",
+    "93ef7e17149847b4b4dfa43667031d3f",
+    "956b13ea5eae40e1bd1d33dee21ec2e0",
+    "99e5e44e77bc4e5d8c5c32b7322a65de",
+    "a6edd9188adc496d9cbb4922de087df4",
+    "b668cb3395e146bfba44b068d3402c98",
+    "b6b4f21712374ce59f6b7c89c3017eaf",
+    "b6f1516482d346a2878e71824d25c99f",
+    "c1d9fb1941cc4c2089c4841c855be89b",
+    "cf02f83b17854c7fbb1e18858aafcf22",
+    "d02cd3c491774a729f315c2092f1fac3",
+    "d080b3b5d1324b799c8c8c816634d4cf",
+    "d98222305c4b40c6818fd25285ed9f8e",
+    "dd15807a9d704fe898cb3a57b5f4713f",
+    "e0b0d5ac237c4d40aac553ad59dc429f",
+    "e41922877c644488a2006db5a2acfe83",
+    "eaee5b3ffed84e44b195d7edbd1db56f",
+    "f1bd483a32334bef82f53e3505f3627e",
+    "f25b9c867ddc4aba9769fed248c1b204",
+    "fd079e3468a34083b2360c113b78e104"
+   ],
+   "gold_count": 46,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q9",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "multi_hop",
+   "query": "When did Caroline meet up with her friends, family, and mentors?",
+   "answer": "The week before 9 June 2023",
+   "choices": [
+    "The Friday before 9 June 2023",
+    "The week after 9 June 2023",
+    "The week leading up to 9 June 2023",
+    "The week before 9 June 2023",
+    "Between 25 May and 10 June 2023",
+    "Approximately 15 May 2023",
+    "The month prior to 9 June 2023",
+    "The week of 12 June 2023",
+    "Around 1 June 2023",
+    "The weekend before 9 June 2023"
+   ],
+   "evidence": [
+    "D3:11"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "week",
+    "9",
+    "june",
+    "2023"
+   ],
+   "gold_ids": [
+    "20d06a2d3197475dad7cda4cd35952f4",
+    "23aa740954404f4b8eb5fa94d7929063",
+    "364c9b12721146358e152020728fb028",
+    "379ca7987f90451fbcb7cc0bca9f2a33",
+    "4102c7e29e5a41789d3ba93848991834",
+    "46bb0145e2f543539bfb893fce5a607e",
+    "4d53be39189947dbaa810055a706c627",
+    "632054b2182441738eb7b4bba18af07d",
+    "7dc6ab21c8e14517b1232a7f077048cc",
+    "956b13ea5eae40e1bd1d33dee21ec2e0",
+    "99e5e44e77bc4e5d8c5c32b7322a65de",
+    "b6b4f21712374ce59f6b7c89c3017eaf",
+    "cf02f83b17854c7fbb1e18858aafcf22"
+   ],
+   "gold_count": 13,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q77",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "temporal_reasoning",
+   "query": "Would Melanie go on another roadtrip soon?",
+   "answer": "Likely no; since this one went badly",
+   "choices": [
+    "Not likely; she has a broken-down car.",
+    "Likely no; since this one went badly",
+    "Possibly; she mentioned a trip to the coast.",
+    "Rarely; she prefers flying whenever possible.",
+    "Probably yes; she's been planning one for months.",
+    "Unlikely; she's saving money for a house.",
+    "Definitely yes; she booked tickets last week.",
+    "Perhaps; she's considering a camping trip.",
+    "Almost certainly; she loves road trips.",
+    "Maybe; it depends on her work schedule."
+   ],
+   "evidence": [
+    "D18:3",
+    "D18:1"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "likely",
+    "since",
+    "went",
+    "badly"
+   ],
+   "gold_ids": [
+    "29fc164848e9479b90b5992bb0439bee",
+    "2c0038aa0b7a451196b2be827c990cac",
+    "493a6985be45481ba06c27377ba60e5a",
+    "83aa4c89fe08468dbe3d9bc16527d9a4",
+    "90bcfdf2da534b35b7a59dcdf30f60fb",
+    "9f8c9fbc63de4a7e9a4e75e566b1ac0d",
+    "a9dea54c3cda41e595cf3b61578cb7ca",
+    "bad9b200f8b8444f9c970ff7328c9e3f",
+    "d909cde7d0b442ba921e798b20a05d96",
+    "f3bb6c90dda14ac996dfbb354ff1244e"
+   ],
+   "gold_count": 10,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q104",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "open_domain",
+   "query": "What book did Caroline recommend to Melanie?",
+   "answer": "\"Becoming Nicole\"",
+   "choices": [
+    "Little Fires Everywhere by Celeste Ng",
+    "Where the Crawdads Sing by Delia Owens",
+    "The Secret Garden by Frances Hodgson Burnett",
+    "The Book Thief by Markus Zusak",
+    "Educated by Tara Westover",
+    "A Long Petal of the Sea by Isabel Allende",
+    "\"Becoming Nicole\"",
+    "The Nightingale by Kristin Hannah",
+    "Pride and Prejudice by Jane Austen",
+    "The Silent Patient by Alex Michaelides"
+   ],
+   "evidence": [
+    "D7:11"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "becoming",
+    "nicole"
+   ],
+   "gold_ids": [
+    "50b47905752747fc800af4c070a85ab2",
+    "6acea12a82454ea1835472796f1ba5e4",
+    "957982a8b214420dbe768024a2d84d27"
+   ],
+   "gold_count": 3,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q11",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "single_hop",
+   "query": "Where did Caroline move from 4 years ago?",
+   "answer": "Sweden",
+   "choices": [
+    "Denmark",
+    "Switzerland",
+    "Ireland",
+    "Sweden",
+    "Iceland",
+    "Finland",
+    "Germany",
+    "Norway",
+    "Netherlands",
+    "Austria"
+   ],
+   "evidence": [
+    "D3:13",
+    "D4:3"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "sweden"
+   ],
+   "gold_ids": [
+    "20d06a2d3197475dad7cda4cd35952f4",
+    "23aa740954404f4b8eb5fa94d7929063",
+    "364c9b12721146358e152020728fb028",
+    "379ca7987f90451fbcb7cc0bca9f2a33",
+    "4102c7e29e5a41789d3ba93848991834",
+    "46bb0145e2f543539bfb893fce5a607e",
+    "4d53be39189947dbaa810055a706c627",
+    "632054b2182441738eb7b4bba18af07d",
+    "7dc6ab21c8e14517b1232a7f077048cc",
+    "956b13ea5eae40e1bd1d33dee21ec2e0",
+    "99e5e44e77bc4e5d8c5c32b7322a65de",
+    "a674ece95ae64295b73676cab9408df3",
+    "aec7a04abe1045e3b2e62d2215b589c4",
+    "b6b4f21712374ce59f6b7c89c3017eaf",
+    "cf02f83b17854c7fbb1e18858aafcf22",
+    "fa3c3f8b73cc48079972d2c09d678898"
+   ],
+   "gold_count": 16,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q41",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "multi_hop",
+   "query": "When did Caroline join a new activist group?",
+   "answer": "The Tuesday before 20 July 2023",
+   "choices": [
+    "The Wednesday before 10 March 2023",
+    "The Friday before 5 June 2023",
+    "The Monday after 8th January 2024",
+    "The Sunday before 18 November 2023",
+    "The Monday after 15 August 2023",
+    "The Thursday before 22 April 2023",
+    "The Tuesday after 1st December 2023",
+    "The Friday after 29th February 2024",
+    "The Saturday before 12 September 2023",
+    "The Tuesday before 20 July 2023"
+   ],
+   "evidence": [
+    "D10:3"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "tuesday",
+    "20",
+    "july",
+    "2023"
+   ],
+   "gold_ids": [
+    "3de247f3e0454555a369f1ab071e9480",
+    "624e208f1951437e8ab5534f95f06b3e",
+    "6754f2a9a7ee49b79274a8aea59f6f9e",
+    "6aeebec87e0d47698107bc8b3c703a80",
+    "791a5d956c23417480f445c174d63e5f",
+    "7c106b84bd5e4edf846425b8f27ddc5e",
+    "89d238e05002484384fe345d9c1806a2",
+    "bdaf19c33690421fa0268f2eebf42dbd",
+    "bf945724692e4d5aa01604ffe7b081e9",
+    "d5f3f1e0189746d685fd6458a103d45c",
+    "db30269a8c23443ba7a51826f772205e"
+   ],
+   "gold_count": 11,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q59",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "temporal_reasoning",
+   "query": "Would Caroline be considered religious?",
+   "answer": "Somewhat, but not extremely religious",
+   "choices": [
+    "Very much, deeply devoted to her faith.",
+    "A little religious, but not a central part of her life.",
+    "Extremely religious, a strong believer in tradition.",
+    "Surprisingly religious, given her past experiences.",
+    "Very little religious observance, mostly personal faith.",
+    "Not particularly, she's quite secular.",
+    "Somewhat religious, influenced by her upbringing.",
+    "Somewhat, but not extremely religious",
+    "Moderately religious, attending services occasionally.",
+    "Not religious, but respectful of others' beliefs."
+   ],
+   "evidence": [
+    "D14:19",
+    "D12:1"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "somewhat",
+    "extremely",
+    "religious"
+   ],
+   "gold_ids": [
+    "135943c2074d4b129601465b528d33c3",
+    "1ef53ae8494f4b0486de53dfc26282d8",
+    "22c66c01a8d84b8f97712bdd72aca17d",
+    "3a0d2d7e9cea4836bce559941a01d77d",
+    "3de205a884be4ff5ad249000c241d0a7",
+    "3e92f46c886345cd8111470a0caf895f",
+    "3fa8eef300e94b56961f7eba56e68d88",
+    "44c9a9ed282d4ec7a786c9d8ee072beb",
+    "475dd970f6c84aa590d2bc2bfc4a31e4",
+    "6456192a1f734943b57005a59acf07c8",
+    "6c96e4ad49e84ad78dcaa5ee998bfe40",
+    "75718bda94234b4eaf9fada64d3ada88",
+    "937f40208b3d4d319f8c7c134c33ccc9",
+    "9f4e06730161445ca5f5082c230715ab",
+    "ad18514439fb4cdd9aa79401d11a1e37",
+    "afa87c94f1ac4ae7b2bfa46d587a41b8",
+    "b17688784ed5465d96e57a445e02c01f",
+    "bb8b6bfb5cec4eb19403d527bfe4d4ac",
+    "bda60fb6f9534366a6e10fb3b33ed178",
+    "d066d05b738e49f2aea65033d72634af",
+    "d7b745e92045496198697211769f7861",
+    "e3e4f258ee1e4535821249aecb2ab8f8",
+    "ffc6e6042f8543689151a60510b803a4"
+   ],
+   "gold_count": 23,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q100",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "open_domain",
+   "query": "What kind of place does Caroline want to create for people?",
+   "answer": "a safe and inviting place for people to grow",
+   "choices": [
+    "a safe and inviting place for people to grow",
+    "A peaceful sanctuary for reflection and spiritual growth",
+    "A dynamic platform for professional networking and advancement",
+    "A nurturing environment for children's development and play",
+    "A relaxing retreat to reduce stress and promote mindfulness",
+    "A stimulating environment for creative expression and collaboration",
+    "A supportive community focused on personal well-being and connection",
+    "A comfortable setting for sharing stories and building friendships",
+    "A vibrant hub for artistic performances and cultural events",
+    "A welcoming space for learning new skills and pursuing passions"
+   ],
+   "evidence": [
+    "D4:15"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "safe",
+    "inviting",
+    "place",
+    "people",
+    "grow"
+   ],
+   "gold_ids": [
+    "a674ece95ae64295b73676cab9408df3",
+    "aec7a04abe1045e3b2e62d2215b589c4",
+    "fa3c3f8b73cc48079972d2c09d678898"
+   ],
+   "gold_count": 3,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q60",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "single_hop",
+   "query": "What instruments does Melanie play?",
+   "answer": "clarinet and violin",
+   "choices": [
+    "笙 and dizi",
+    "Viola and cello",
+    "Harp and flute",
+    "Flute and oboe",
+    "Mandolin and guitar",
+    "Trumpet and trombone",
+    "Bassoon and saxophone",
+    "clarinet and violin",
+    "Guitar and drums",
+    "Piano and cello"
+   ],
+   "evidence": [
+    "D15:26",
+    "D2:5"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "clarinet",
+    "violin"
+   ],
+   "gold_ids": [
+    "036ded2320544699945491ff158b675b",
+    "2032fb6634d24d4085f447689fb5fea0",
+    "220f6da866d14aad89da54432e83d4c1",
+    "27dc4a9d28bc4f4887c53d9f8a09e723",
+    "4185e34d479d4663aa7127357192f4c4",
+    "511858bdbfa74121b90963396a872af4",
+    "55ea34b01412491886a1eed63dd5a0be",
+    "6928d754047446c8b08aef0b74fc9abf",
+    "6ca9a83330f34a0c87524b2c174221d3",
+    "7ac10961e65b498c933c03271c725572",
+    "8120a72d9ad641c1a0d62f2784ff7be6",
+    "90d1d98f84b648e2bc35358c6987a400",
+    "94438a2325024375b36357b7a1efdc06",
+    "94eb4357cced43efb2217c5a75c781fd",
+    "981879cd17d2410c8bce5837388bc938",
+    "addd604f5c2149ab9bdaa2d479e72513",
+    "b3dcead5348e466393bd54adbee8b634",
+    "c39670a0761f4893a0b7b427354b7662",
+    "c7dd5dc4e9a44d4fa8db9c477aac1635",
+    "f5af0533723e4d2e87c4abf5d8419605"
+   ],
+   "gold_count": 20,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q25",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "multi_hop",
+   "query": "When did Caroline go to the LGBTQ conference?",
+   "answer": "10 July 2023",
+   "choices": [
+    "15 July 2023",
+    "11 July 2023",
+    "20 July 2022",
+    "14 July 2023",
+    "17 July 2023",
+    "12 July 2023",
+    "10 August 2023",
+    "10 July 2023",
+    "9 July 2023",
+    "10 June 2023"
+   ],
+   "evidence": [
+    "D7:1"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "10",
+    "july",
+    "2023"
+   ],
+   "gold_ids": [
+    "50b47905752747fc800af4c070a85ab2",
+    "6acea12a82454ea1835472796f1ba5e4",
+    "957982a8b214420dbe768024a2d84d27"
+   ],
+   "gold_count": 3,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q50",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "temporal_reasoning",
+   "query": "What would Caroline's political leaning likely be?",
+   "answer": "Liberal",
+   "choices": [
+    "Moderate",
+    "Populist",
+    "Independent",
+    "Conservative",
+    "Social Democrat",
+    "Centrist",
+    "Green",
+    "Libertarian",
+    "Liberal",
+    "Progressive"
+   ],
+   "evidence": [
+    "D12:1"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "liberal"
+   ],
+   "gold_ids": [
+    "135943c2074d4b129601465b528d33c3",
+    "3e92f46c886345cd8111470a0caf895f",
+    "3fa8eef300e94b56961f7eba56e68d88",
+    "6456192a1f734943b57005a59acf07c8",
+    "937f40208b3d4d319f8c7c134c33ccc9",
+    "ad18514439fb4cdd9aa79401d11a1e37",
+    "afa87c94f1ac4ae7b2bfa46d587a41b8",
+    "b17688784ed5465d96e57a445e02c01f",
+    "d066d05b738e49f2aea65033d72634af",
+    "ffc6e6042f8543689151a60510b803a4"
+   ],
+   "gold_count": 10,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q92",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "open_domain",
+   "query": "What country is Caroline's grandma from?",
+   "answer": "Sweden",
+   "choices": [
+    "Finland",
+    "Denmark",
+    "Poland",
+    "Norway",
+    "Switzerland",
+    "Austria",
+    "Germany",
+    "Netherlands",
+    "Iceland",
+    "Sweden"
+   ],
+   "evidence": [
+    "D4:3"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "sweden"
+   ],
+   "gold_ids": [
+    "a674ece95ae64295b73676cab9408df3",
+    "aec7a04abe1045e3b2e62d2215b589c4",
+    "fa3c3f8b73cc48079972d2c09d678898"
+   ],
+   "gold_count": 3,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q3",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "single_hop",
+   "query": "What did Caroline research?",
+   "answer": "Adoption agencies",
+   "choices": [
+    "Historical textile manufacturing",
+    "International human rights law",
+    "Early childhood education programs",
+    "Marine biology conservation efforts",
+    "Contemporary art therapy techniques",
+    "Victorian era social reform movements",
+    "Sustainable agricultural practices",
+    "Adoption agencies",
+    "Ancient Roman architectural styles",
+    "Renewable energy policy development"
+   ],
+   "evidence": [
+    "D2:8"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "adoption",
+    "agencies"
+   ],
+   "gold_ids": [
+    "2032fb6634d24d4085f447689fb5fea0",
+    "220f6da866d14aad89da54432e83d4c1",
+    "55ea34b01412491886a1eed63dd5a0be",
+    "6928d754047446c8b08aef0b74fc9abf",
+    "6ca9a83330f34a0c87524b2c174221d3",
+    "7ac10961e65b498c933c03271c725572",
+    "94eb4357cced43efb2217c5a75c781fd",
+    "addd604f5c2149ab9bdaa2d479e72513",
+    "b3dcead5348e466393bd54adbee8b634",
+    "f5af0533723e4d2e87c4abf5d8419605"
+   ],
+   "gold_count": 10,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q17",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "multi_hop",
+   "query": "When is Caroline going to the transgender conference?",
+   "answer": "July 2023",
+   "choices": [
+    "December 2023",
+    "November 2023",
+    "July 2023",
+    "September 2023",
+    "October 2023",
+    "August 2023",
+    "January 2024",
+    "May 2023",
+    "July 2022",
+    "June 2023"
+   ],
+   "evidence": [
+    "D5:13"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "july",
+    "2023"
+   ],
+   "gold_ids": [
+    "289a02318aa8462fafec5433fa8264d4",
+    "3b04b5d822974a829a97cfd8c209b7e3",
+    "3cd53eff6f4d4c44909bd8aa15943057",
+    "409890889dba489dbd9aeb64a78b4cdf",
+    "53c9dab1d5dd45e9b016d75a3776cd9e",
+    "6002db9b52d74d8db3f2195b8340e340",
+    "613f7486ca814efa8fdbcac68e7f32bd",
+    "63c69aa143f6440699027e97c585b030",
+    "a6edd9188adc496d9cbb4922de087df4",
+    "d02cd3c491774a729f315c2092f1fac3",
+    "dd15807a9d704fe898cb3a57b5f4713f",
+    "fd079e3468a34083b2360c113b78e104"
+   ],
+   "gold_count": 12,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q30",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "temporal_reasoning",
+   "query": "Would Melanie be considered a member of the LGBTQ community?",
+   "answer": "Likely no, she does not refer to herself as part of it",
+   "choices": [
+    "She identifies as pansexual, but prefers privacy.",
+    "Her gender identity is unknown, making it difficult to say.",
+    "Possibly yes, depending on her personal relationships.",
+    "It's unclear without knowing her sexual orientation.",
+    "She has expressed support for LGBTQ rights publicly.",
+    "Some speculate she is questioning her identity.",
+    "It depends on her self-identification, which is not public.",
+    "Likely no, she does not refer to herself as part of it",
+    "She has a partner of the same sex, suggesting affiliation.",
+    "She may identify as bisexual, but hasn't disclosed it."
+   ],
+   "evidence": [],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "likely",
+    "refer",
+    "herself",
+    "part"
+   ],
+   "gold_ids": [
+    "d98222305c4b40c6818fd25285ed9f8e",
+    "7ac10961e65b498c933c03271c725572",
+    "94eb4357cced43efb2217c5a75c781fd",
+    "23aa740954404f4b8eb5fa94d7929063",
+    "613f7486ca814efa8fdbcac68e7f32bd",
+    "289a02318aa8462fafec5433fa8264d4",
+    "6acea12a82454ea1835472796f1ba5e4",
+    "368ad75edd094730981fdcc4691a787d",
+    "ed9d5e1736a74248996192c3a5d98a8a",
+    "63606e081b0e45e7b85a0b55620002ae",
+    "3a5e810f2835498e9819afaf75aefaa2",
+    "7c106b84bd5e4edf846425b8f27ddc5e",
+    "ba6d467ab02d4ec1b6e74d3986bf2963",
+    "ffc6e6042f8543689151a60510b803a4",
+    "135943c2074d4b129601465b528d33c3",
+    "5ee1269b907c494f8888c5faf343201f",
+    "90d1d98f84b648e2bc35358c6987a400",
+    "c7dd5dc4e9a44d4fa8db9c477aac1635",
+    "b93306a954914d64bb54d3653e600ceb",
+    "272f0cf3e4c540a8b373402b40c8b96a",
+    "1e364d098f274064ba7c7a6b6b639e86",
+    "c5056f252b2b407fb00cef70868163a0",
+    "179ecd988f634a2e91eb49a0170a92e9"
+   ],
+   "gold_count": 23,
+   "gold_kind": "weak",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q138",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "open_domain",
+   "query": "What kind of painting did Caroline share with Melanie on October 13, 2023?",
+   "answer": "An abstract painting with blue streaks on a wall.",
+   "choices": [
+    "A photograph of a local landmark at sunset.",
+    "A watercolor landscape featuring autumn trees.",
+    "A portrait sketch done in charcoal on textured paper.",
+    "A sculpture of a bronze animal figure.",
+    "A pastel drawing of a historical building.",
+    "A vibrant still life of fruit and flowers.",
+    "A digital art piece with geometric patterns.",
+    "A mixed media collage incorporating fabric and paper.",
+    "An oil painting depicting a coastal scene.",
+    "An abstract painting with blue streaks on a wall."
+   ],
+   "evidence": [
+    "D17:14"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "abstract",
+    "painting",
+    "blue",
+    "streaks",
+    "wall"
+   ],
+   "gold_ids": [
+    "60c01dd3fdff4f65aaed945e868bfa24",
+    "c962dd4575fd457699a4c849a0cb61c5",
+    "e37c536331d0419d8a7a04c5edb31d60",
+    "f33c16807ff847908bf6772ade94f01e"
+   ],
+   "gold_count": 4,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q76",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "single_hop",
+   "query": "When did Melanie go on a hike after the roadtrip?",
+   "answer": "19 October 2023",
+   "choices": [
+    "16 October 2023",
+    "21 October 2023",
+    "25 October 2023",
+    "23 October 2023",
+    "15 October 2023",
+    "18 October 2023",
+    "20 October 2023",
+    "19 September 2023",
+    "19 October 2023",
+    "22 October 2023"
+   ],
+   "evidence": [
+    "D18:17"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "19",
+    "october",
+    "2023"
+   ],
+   "gold_ids": [
+    "29fc164848e9479b90b5992bb0439bee",
+    "2c0038aa0b7a451196b2be827c990cac",
+    "493a6985be45481ba06c27377ba60e5a",
+    "83aa4c89fe08468dbe3d9bc16527d9a4",
+    "90bcfdf2da534b35b7a59dcdf30f60fb",
+    "9f8c9fbc63de4a7e9a4e75e566b1ac0d",
+    "a9dea54c3cda41e595cf3b61578cb7ca",
+    "bad9b200f8b8444f9c970ff7328c9e3f",
+    "d909cde7d0b442ba921e798b20a05d96",
+    "f3bb6c90dda14ac996dfbb354ff1244e"
+   ],
+   "gold_count": 10,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q45",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "multi_hop",
+   "query": "When did Caroline attend a pride parade in August?",
+   "answer": "The Friday before 14 August 2023",
+   "choices": [
+    "The Monday after 7 August 2023",
+    "The Thursday before 16 August 2023",
+    "The Friday before 24 August 2023",
+    "The Wednesday after 9 August 2023",
+    "The Tuesday before 15 August 2023",
+    "The Friday before 14 August 2023",
+    "The Sunday before 20 August 2023",
+    "The Saturday after 12 August 2023",
+    "The Sunday before 19 August 2023",
+    "The Saturday after 10 August 2023"
+   ],
+   "evidence": [
+    "D11:4"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "friday",
+    "14",
+    "august",
+    "2023"
+   ],
+   "gold_ids": [
+    "2cf096d05a574973b1754a39a6a34a0a",
+    "2e125e11de4d48babec7150760ead5bc",
+    "506244de3ee1476e9c78a7c9d9b6c63c",
+    "7fd324671b4144e99ef6fe5ae92c21c0",
+    "8d20124fc9c84754bd20de9caee17ef4",
+    "92472a2585e143bd877a00372bf392a9",
+    "9abe3f953b3a464a97baeb79d3bbca8e",
+    "ae1ed85603144d7baaca1f3575ed41f3",
+    "b1154ecf0e204d689134a576b6401fd2",
+    "ba6d467ab02d4ec1b6e74d3986bf2963",
+    "cd6dd69f6ad64280a5daab7016306a48"
+   ],
+   "gold_count": 11,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q69",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "temporal_reasoning",
+   "query": "What personality traits might Melanie say Caroline has?",
+   "answer": "Thoughtful, authentic, driven",
+   "choices": [
+    "Artistic, imaginative, sensitive",
+    "Confident, decisive, persuasive",
+    "Empathetic, kind, understanding",
+    "Practical, reliable, diligent",
+    "Outgoing, humorous, supportive",
+    "Independent, ambitious, assertive",
+    "Optimistic, adaptable, creative",
+    "Thoughtful, authentic, driven",
+    "Analytical, precise, organized",
+    "Reserved, intelligent, compassionate"
+   ],
+   "evidence": [
+    "D16:18",
+    "D13:16",
+    "D7:4"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "thoughtful",
+    "authentic",
+    "driven"
+   ],
+   "gold_ids": [
+    "01a0b2d3b26f415e85edea80d7a238d2",
+    "1d0b1d2d6b1843ce95b41759d8ff269b",
+    "3fa224fff57143f38ac7d586024ac600",
+    "3fbae2c7f62a4284bca4edf8d4b42c4d",
+    "4656a14b62624cc4861a3d62a0df8eb6",
+    "4f9792208efe42c399c95c55f30daa87",
+    "50b47905752747fc800af4c070a85ab2",
+    "5170e07286c34fbfa01a58fa67103c9f",
+    "6acea12a82454ea1835472796f1ba5e4",
+    "8408e294cc404cb6b45dd11413608272",
+    "957982a8b214420dbe768024a2d84d27",
+    "979d4efc1ddd4057b18d800d7c9a34c4",
+    "b55db07584274a188fc082fb9a5bb22d",
+    "bb0f86c6cf9245b0bb32e031d2d5fadb",
+    "cf88316640da4d118fccdd5ac48d8aaf",
+    "e48f22a291544632b595a6dcc9081c1c",
+    "e90a4bbad3f1418c92829aa995f3ef3c"
+   ],
+   "gold_count": 17,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-26_q132",
+   "conv": "conv-26",
+   "user_id": "locomo_conv-26",
+   "qtype": "open_domain",
+   "query": "How long has Melanie been creating art?",
+   "answer": "7 years",
+   "choices": [
+    "Just over 5 years",
+    "Nearly a decade",
+    "Around 3 years",
+    "Since she was a child",
+    "7 years",
+    "5 years",
+    "8 years",
+    "10 years",
+    "6 years",
+    "9 years"
+   ],
+   "evidence": [
+    "D16:7"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "7",
+    "years"
+   ],
+   "gold_ids": [
+    "3fbae2c7f62a4284bca4edf8d4b42c4d",
+    "4656a14b62624cc4861a3d62a0df8eb6",
+    "e48f22a291544632b595a6dcc9081c1c"
+   ],
+   "gold_count": 3,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q24",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "single_hop",
+   "query": "Which events has Jon participated in to promote his business venture?",
+   "answer": "fair, networking events, dance competition",
+   "choices": [
+    "Trade shows, online webinars, community workshops",
+    "Networking mixers, business expos, and talent showcases",
+    "Academic symposiums, research presentations, guest lectures",
+    "Industry conferences, investor meetups, charity gala",
+    "Social media campaigns, influencer collaborations, podcast appearances",
+    "fair, networking events, dance competition",
+    "Government forums, policy debates, public hearings",
+    "Local festivals, art exhibitions, sporting events",
+    "Product demos, customer seminars, press interviews",
+    "Competitions, workshops, and public speaking engagements"
+   ],
+   "evidence": [
+    "D10:1",
+    "D16:6",
+    "D8:4"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "fair",
+    "networking",
+    "events",
+    "dance",
+    "competition"
+   ],
+   "gold_ids": [
+    "01018593ab8947f982c94c1083ff13fd",
+    "212f88edec4b4dc38df6dfc61ac139ce",
+    "2a4ccf44937a48bcbf2d3c8298a20cf6",
+    "360d49bb00524e43b6549e8716fcf428",
+    "37ffe800b2854812a834959fd23f5963",
+    "41386002b8854ca78900d314649aabea",
+    "49be7e69af9c46509024407ec5eacec7",
+    "51afae1d9dda45b89f694abfaea57984",
+    "5b9ebdaa10e84a078b6a34cd7809f4cf",
+    "6a411c799ef64938878fedef72a455c5",
+    "837be945e69c4ec88b7e6adf736e04d4",
+    "9f2d5bc6fd9f4c479ccdf7997e28a74f",
+    "a0c991082e7b48f18745d82d2861b592",
+    "af03b029024344a98b45deec09f196ed",
+    "b6b80c3e2e0a4689b1fc196f2fc33805",
+    "c06fab183c984682b9bdd47f427a16aa",
+    "c0a26038655446dc916464a0e2b6db78",
+    "c73b692ad4c7490286890b2ffbd73b4a",
+    "c882458094364f198a9f229cbf290c8c",
+    "c8b7b808a944429c81f7eebf90cb4d6b",
+    "d0827b3dd93b47b0bd094243e63c70ca",
+    "f861068cfc9844398f99335c4c928f3d",
+    "f960ff17a2834d278b756f9f75b1f309"
+   ],
+   "gold_count": 23,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q22",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "multi_hop",
+   "query": "When did Gina develop a video presentation to teach how to style her fashion pieces? ",
+   "answer": "June, 2023",
+   "choices": [
+    "September, 2023",
+    "November, 2022",
+    "February, 2024",
+    "August, 2023",
+    "May, 2023",
+    "October, 2023",
+    "December, 2022",
+    "July, 2023",
+    "January, 2024",
+    "June, 2023"
+   ],
+   "evidence": [
+    "D13:4"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "june",
+    "2023"
+   ],
+   "gold_ids": [
+    "30bb64e84086420187e967679f953e55",
+    "312a6b7fca3c43e48b21e4401a223158",
+    "32c849db90ea435b8c01cd3729d262a3",
+    "77372747e1a94f489b61b8cae9a45cff",
+    "a3d0f2323b5b491b9f68d74d057c7a29",
+    "bbac0933cd8e4dc6978a8cddaac1ea14",
+    "c42d494a16ca4f319cd485287a18ddb2",
+    "e1dabea401404e84a07c50e8a9cc75c4",
+    "fbdedafe7c1f4a43844cd4e348488138"
+   ],
+   "gold_count": 9,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q69",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "open_domain",
+   "query": "What did Jon take a trip to Rome for?",
+   "answer": "To clear his mind",
+   "choices": [
+    "For a relaxing vacation with his family.",
+    "To meet with a potential business partner.",
+    "To film a documentary about Roman history.",
+    "To study ancient Roman architecture.",
+    "To explore the local cuisine and culture.",
+    "To clear his mind",
+    "To seek medical treatment at a renowned hospital.",
+    "To participate in a charity event.",
+    "To visit historical landmarks and museums.",
+    "To attend an academic conference."
+   ],
+   "evidence": [
+    "D15:1"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "clear",
+    "mind"
+   ],
+   "gold_ids": [
+    "012ba6ef2d04437792d5de9a192ca575",
+    "09fa029e13ae45d5abf52f960bc4285a",
+    "0c5260a29b914340ac3efc3c2f279192",
+    "22da0cfa0c124563b1c9705bfaa8eddf",
+    "297b3b8c34c1410da3728006b25904fb",
+    "30e3a6baf5294f98b6f6a96564bdab8a",
+    "508b88cca10d4d66966d155be63653dc",
+    "7ab87c6e89a145dba1795be8b4881bdb",
+    "d94b538ef8f64dc391287c0d2ece9ba4",
+    "e03f68f394c54dd39363caacc6028b98",
+    "f1e0e8641bce44458292af702b410d74"
+   ],
+   "gold_count": 11,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q25",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "single_hop",
+   "query": "What does Jon's dance studio offer?",
+   "answer": "one-on-one metoring and training to dancers,  workshops and classes to local schools and centers",
+   "choices": [
+    "Performance opportunities for students at local theaters and community events.",
+    "Parent workshops focused on supporting their child's dance journey.",
+    "one-on-one metoring and training to dancers,  workshops and classes to local schools and centers",
+    "Recital performances showcasing student talent annually.",
+    "Partnerships with local businesses for dance-related promotions.",
+    "Costume design and sewing classes for aspiring designers.",
+    "Summer intensive programs with renowned professional dancers.",
+    "Adaptive dance classes for individuals with physical limitations.",
+    "Specialized training in ballet, jazz, and contemporary dance styles.",
+    "Nutritional guidance and fitness programs tailored for dancers."
+   ],
+   "evidence": [
+    "D13:7",
+    "D8:13"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "metoring",
+    "training",
+    "dancers",
+    "workshops",
+    "classes",
+    "local",
+    "schools",
+    "centers"
+   ],
+   "gold_ids": [
+    "30bb64e84086420187e967679f953e55",
+    "312a6b7fca3c43e48b21e4401a223158",
+    "32c849db90ea435b8c01cd3729d262a3",
+    "49be7e69af9c46509024407ec5eacec7",
+    "5b9ebdaa10e84a078b6a34cd7809f4cf",
+    "77372747e1a94f489b61b8cae9a45cff",
+    "a3d0f2323b5b491b9f68d74d057c7a29",
+    "bbac0933cd8e4dc6978a8cddaac1ea14",
+    "c42d494a16ca4f319cd485287a18ddb2",
+    "c73b692ad4c7490286890b2ffbd73b4a",
+    "e1dabea401404e84a07c50e8a9cc75c4",
+    "fbdedafe7c1f4a43844cd4e348488138"
+   ],
+   "gold_count": 12,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q8",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "multi_hop",
+   "query": "When was Jon in Paris?",
+   "answer": "28 January 2023",
+   "choices": [
+    "1 February 2023",
+    "28 January 2024",
+    "28 March 2023",
+    "15 February 2023",
+    "28 January 2023",
+    "29 January 2023",
+    "28 February 2023",
+    "17 January 2023",
+    "28 December 2022",
+    "28 April 2023"
+   ],
+   "evidence": [
+    "D2:4"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "28",
+    "january",
+    "2023"
+   ],
+   "gold_ids": [
+    "051ae74c4bdd4565b47fbf5d6c2cbb7b",
+    "223e98ed4fba41b38f0874d607783d78",
+    "3d9f7d9fc40d4fc9ae19e35d63db7504",
+    "5fc8d02aa38443679ce046ca23e82b53",
+    "6687e143269048db8a815fd689d2a99b",
+    "6d5c78360ecb41a29fadf13c84082698",
+    "8129cfec15ca494388e4a684a0979ca7",
+    "857958a841d34fad812e170152643dc8",
+    "9e392dc952be4c3c957b49285b5e7c18",
+    "a0868606fb7444f89e8a90acbb8ee105"
+   ],
+   "gold_count": 10,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q44",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "open_domain",
+   "query": "What does Gina say about the dancers in the photo?",
+   "answer": "They look graceful",
+   "choices": [
+    "They look very focused.",
+    "They display strong rhythm.",
+    "They appear energetic.",
+    "They move with precision.",
+    "They are quite expressive.",
+    "They exude confidence.",
+    "They look graceful",
+    "They seem very skilled.",
+    "They seem full of joy.",
+    "They have a powerful presence."
+   ],
+   "evidence": [
+    "D1:26"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "look",
+    "graceful"
+   ],
+   "gold_ids": [
+    "2397d2734ce74b8abdfe7ed7dd693865",
+    "398cf47485254539aaead8d8235a73b0",
+    "58f68e03889347c096ad8fdd962d8566",
+    "67084d9c65634302bebe2224708dab20",
+    "7543eb5e564a4c7bbae6d3de323e11e7",
+    "91c38f62860f4d36aa16ed44b79433d9",
+    "a25e570f50654fad858b8e54d52e9bdf",
+    "b793b49c3d6848f08b6b22d9993f8e98",
+    "edcfc4117dd1448392513a1c4ea8ff73",
+    "f41da60330594f4ab6981a54781a0f26"
+   ],
+   "gold_count": 10,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q31",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "single_hop",
+   "query": "How long did it take for Jon to open his studio?",
+   "answer": "six months",
+   "choices": [
+    "Half a year",
+    "One year",
+    "Seven months",
+    "Five months",
+    "Two months",
+    "Nine months",
+    "Three months",
+    "Four months",
+    "six months",
+    "Ten months"
+   ],
+   "evidence": [
+    "D1:2",
+    "D15:13"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "six",
+    "months"
+   ],
+   "gold_ids": [
+    "012ba6ef2d04437792d5de9a192ca575",
+    "09fa029e13ae45d5abf52f960bc4285a",
+    "0c5260a29b914340ac3efc3c2f279192",
+    "22da0cfa0c124563b1c9705bfaa8eddf",
+    "297b3b8c34c1410da3728006b25904fb",
+    "30e3a6baf5294f98b6f6a96564bdab8a",
+    "31282da8fc4a46b0ba10bcb248915a0e",
+    "37b6d9a6c5b646198e5d720cf83a09bb",
+    "4a9cac7440234d1a8f5270cac54afebb",
+    "508b88cca10d4d66966d155be63653dc",
+    "6c345b4eab864d01a127cde289cf7453",
+    "772adde301da4ba69c6b0c3bb6107bd8",
+    "7ab87c6e89a145dba1795be8b4881bdb",
+    "9df6b17dca9b4090b11b273f6585e81f",
+    "a14147038d4043948e8f83f14d21cef9",
+    "af2171dd35204e8aaacab665a6c9791f",
+    "b42663cb2e6e43a7a2e61de1545939be",
+    "b849c95f63144addb11da2dd8baa29ff",
+    "ba49f61917e34324bdf80f08a5ef6950",
+    "d1af31cd812a4c5a9b8a3586da351c98",
+    "d94b538ef8f64dc391287c0d2ece9ba4",
+    "e03f68f394c54dd39363caacc6028b98",
+    "f1e0e8641bce44458292af702b410d74"
+   ],
+   "gold_count": 23,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q1",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "multi_hop",
+   "query": "When Gina has lost her job at Door Dash?",
+   "answer": "January, 2023",
+   "choices": [
+    "January, 2023",
+    "December, 2022",
+    "February, 2024",
+    "May, 2023",
+    "March, 2022",
+    "November, 2021",
+    "September, 2023",
+    "August, 2022",
+    "April, 2024",
+    "July, 2023"
+   ],
+   "evidence": [
+    "D1:3"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "january",
+    "2023"
+   ],
+   "gold_ids": [
+    "31282da8fc4a46b0ba10bcb248915a0e",
+    "37b6d9a6c5b646198e5d720cf83a09bb",
+    "4a9cac7440234d1a8f5270cac54afebb",
+    "6c345b4eab864d01a127cde289cf7453",
+    "772adde301da4ba69c6b0c3bb6107bd8",
+    "9df6b17dca9b4090b11b273f6585e81f",
+    "a14147038d4043948e8f83f14d21cef9",
+    "af2171dd35204e8aaacab665a6c9791f",
+    "b42663cb2e6e43a7a2e61de1545939be",
+    "b849c95f63144addb11da2dd8baa29ff",
+    "ba49f61917e34324bdf80f08a5ef6950",
+    "d1af31cd812a4c5a9b8a3586da351c98"
+   ],
+   "gold_count": 12,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q39",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "open_domain",
+   "query": "What is Gina's favorite style of dance?",
+   "answer": "Contemporary",
+   "choices": [
+    "Modern",
+    "Swing",
+    "Lyrical",
+    "Irish step dance",
+    "Vocal Jazz",
+    "Contemporary",
+    "Ballet",
+    "Hip-hop",
+    "Tap",
+    "Jazz"
+   ],
+   "evidence": [
+    "D1:9"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "contemporary"
+   ],
+   "gold_ids": [
+    "31282da8fc4a46b0ba10bcb248915a0e",
+    "37b6d9a6c5b646198e5d720cf83a09bb",
+    "4a9cac7440234d1a8f5270cac54afebb",
+    "6c345b4eab864d01a127cde289cf7453",
+    "772adde301da4ba69c6b0c3bb6107bd8",
+    "9df6b17dca9b4090b11b273f6585e81f",
+    "a14147038d4043948e8f83f14d21cef9",
+    "af2171dd35204e8aaacab665a6c9791f",
+    "b42663cb2e6e43a7a2e61de1545939be",
+    "b849c95f63144addb11da2dd8baa29ff",
+    "ba49f61917e34324bdf80f08a5ef6950",
+    "d1af31cd812a4c5a9b8a3586da351c98"
+   ],
+   "gold_count": 12,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q9",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "single_hop",
+   "query": "Which city have both Jean and John visited?",
+   "answer": "Rome",
+   "choices": [
+    "Madrid",
+    "Berlin",
+    "Vienna",
+    "Florence",
+    "Prague",
+    "Amsterdam",
+    "Barcelona",
+    "London",
+    "Rome",
+    "Paris"
+   ],
+   "evidence": [
+    "D2:5",
+    "D15:1"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "rome"
+   ],
+   "gold_ids": [
+    "012ba6ef2d04437792d5de9a192ca575",
+    "051ae74c4bdd4565b47fbf5d6c2cbb7b",
+    "09fa029e13ae45d5abf52f960bc4285a",
+    "0c5260a29b914340ac3efc3c2f279192",
+    "223e98ed4fba41b38f0874d607783d78",
+    "22da0cfa0c124563b1c9705bfaa8eddf",
+    "297b3b8c34c1410da3728006b25904fb",
+    "30e3a6baf5294f98b6f6a96564bdab8a",
+    "3d9f7d9fc40d4fc9ae19e35d63db7504",
+    "508b88cca10d4d66966d155be63653dc",
+    "5fc8d02aa38443679ce046ca23e82b53",
+    "6687e143269048db8a815fd689d2a99b",
+    "6d5c78360ecb41a29fadf13c84082698",
+    "7ab87c6e89a145dba1795be8b4881bdb",
+    "8129cfec15ca494388e4a684a0979ca7",
+    "857958a841d34fad812e170152643dc8",
+    "9e392dc952be4c3c957b49285b5e7c18",
+    "a0868606fb7444f89e8a90acbb8ee105",
+    "d94b538ef8f64dc391287c0d2ece9ba4",
+    "e03f68f394c54dd39363caacc6028b98",
+    "f1e0e8641bce44458292af702b410d74"
+   ],
+   "gold_count": 21,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q16",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "multi_hop",
+   "query": "When did Jon go to a fair to get more exposure for his dance studio?",
+   "answer": "24 April, 2023",
+   "choices": [
+    "24 April, 2023",
+    "12 April, 2022",
+    "20 July, 2023",
+    "5 May, 2023",
+    "8 February, 2024",
+    "29 June, 2023",
+    "17 March, 2023",
+    "10 September, 2023",
+    "15 November, 2023",
+    "3 June, 2023"
+   ],
+   "evidence": [
+    "D10:1"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "24",
+    "april",
+    "2023"
+   ],
+   "gold_ids": [
+    "2a4ccf44937a48bcbf2d3c8298a20cf6",
+    "41386002b8854ca78900d314649aabea",
+    "51afae1d9dda45b89f694abfaea57984",
+    "837be945e69c4ec88b7e6adf736e04d4",
+    "9f2d5bc6fd9f4c479ccdf7997e28a74f",
+    "a0c991082e7b48f18745d82d2861b592",
+    "c0a26038655446dc916464a0e2b6db78",
+    "d0827b3dd93b47b0bd094243e63c70ca",
+    "f861068cfc9844398f99335c4c928f3d",
+    "f960ff17a2834d278b756f9f75b1f309"
+   ],
+   "gold_count": 10,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q58",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "open_domain",
+   "query": "Why did Jon shut down his bank account?",
+   "answer": "for his business",
+   "choices": [
+    "To consolidate multiple accounts.",
+    "For increased online security.",
+    "Due to a change in financial priorities.",
+    "Following a company policy change.",
+    "for his business",
+    "To simplify his financial management.",
+    "To avoid excessive fees.",
+    "He needed to restructure his debts.",
+    "His account was compromised.",
+    "He was targeted by scammers."
+   ],
+   "evidence": [
+    "D8:1"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "business"
+   ],
+   "gold_ids": [
+    "49be7e69af9c46509024407ec5eacec7",
+    "5b9ebdaa10e84a078b6a34cd7809f4cf",
+    "c73b692ad4c7490286890b2ffbd73b4a"
+   ],
+   "gold_count": 3,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q29",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "single_hop",
+   "query": "Which cities has Jon visited?",
+   "answer": "Paris, Rome",
+   "choices": [
+    "London, Berlin",
+    "Madrid, Lisbon",
+    "Toronto, Montreal",
+    "Vienna, Prague",
+    "Dublin, Edinburgh",
+    "New York, Boston",
+    "Paris, Rome",
+    "Amsterdam, Brussels",
+    "Sydney, Melbourne",
+    "Chicago, Los Angeles"
+   ],
+   "evidence": [
+    "D2:4",
+    "D15:1"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "paris",
+    "rome"
+   ],
+   "gold_ids": [
+    "012ba6ef2d04437792d5de9a192ca575",
+    "051ae74c4bdd4565b47fbf5d6c2cbb7b",
+    "09fa029e13ae45d5abf52f960bc4285a",
+    "0c5260a29b914340ac3efc3c2f279192",
+    "223e98ed4fba41b38f0874d607783d78",
+    "22da0cfa0c124563b1c9705bfaa8eddf",
+    "297b3b8c34c1410da3728006b25904fb",
+    "30e3a6baf5294f98b6f6a96564bdab8a",
+    "3d9f7d9fc40d4fc9ae19e35d63db7504",
+    "508b88cca10d4d66966d155be63653dc",
+    "5fc8d02aa38443679ce046ca23e82b53",
+    "6687e143269048db8a815fd689d2a99b",
+    "6d5c78360ecb41a29fadf13c84082698",
+    "7ab87c6e89a145dba1795be8b4881bdb",
+    "8129cfec15ca494388e4a684a0979ca7",
+    "857958a841d34fad812e170152643dc8",
+    "9e392dc952be4c3c957b49285b5e7c18",
+    "a0868606fb7444f89e8a90acbb8ee105",
+    "d94b538ef8f64dc391287c0d2ece9ba4",
+    "e03f68f394c54dd39363caacc6028b98",
+    "f1e0e8641bce44458292af702b410d74"
+   ],
+   "gold_count": 21,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q12",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "multi_hop",
+   "query": "When did Jon start to go to the gym?",
+   "answer": "March, 2023",
+   "choices": [
+    "February, 2023",
+    "July, 2023",
+    "September, 2023",
+    "March, 2023",
+    "May, 2023",
+    "December, 2022",
+    "January, 2023",
+    "November, 2023",
+    "August, 2023",
+    "April, 2023"
+   ],
+   "evidence": [
+    "D6:1"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "march",
+    "2023"
+   ],
+   "gold_ids": [
+    "1bb998310a66408eb43db8682d08594b",
+    "4bdd00a2a43d4487b9c8a1bdc88de52e",
+    "58d468e377c442859de86c91711a0dc8",
+    "6d44381961634e409126fb8511c316b8",
+    "817604b839844bfcad4aeba074ba2060",
+    "a5bec6ca37684e26b40292213a29c747",
+    "b25e139db86d43c4b05511a7341cd2b1",
+    "b603ee5e67374d9fa75e0deebd23ce17",
+    "bae4e20dd66b4519bb95277cd52fb598",
+    "d175c37719574811a950039a707112c9"
+   ],
+   "gold_count": 10,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q57",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "open_domain",
+   "query": "What advice does Gina give to Jon about running a successful business?",
+   "answer": "build relationships with customers, create a strong brand image, stay positive",
+   "choices": [
+    "Develop innovative products, conduct thorough market research, anticipate future trends.",
+    "Embrace sustainable practices, promote ethical sourcing, build a socially responsible brand.",
+    "Delegate effectively, empower team members, encourage open communication within the company.",
+    "Invest heavily in online advertising, utilize social media marketing, build a strong online presence.",
+    "Maintain strict financial discipline, avoid unnecessary risks, focus on long-term stability.",
+    "Offer exceptional customer service, build customer loyalty programs, prioritize customer feedback.",
+    "Focus on aggressive cost-cutting measures, maintain a flexible budget, adapt quickly to market changes.",
+    "Network with industry leaders, attend conferences, seek mentorship from experienced entrepreneurs.",
+    "Prioritize employee satisfaction, foster a collaborative work environment, offer competitive benefits.",
+    "build relationships with customers, create a strong brand image, stay positive"
+   ],
+   "evidence": [
+    "D7:5"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "build",
+    "relationships",
+    "customers",
+    "create",
+    "strong",
+    "brand",
+    "image",
+    "stay",
+    "positive"
+   ],
+   "gold_ids": [
+    "149247f75c38492fb3fad5d77dfa293b",
+    "14eb28fe4f86445e914ae0b9c5dcb0c0",
+    "20cd8086fa1346c4853e45bb5ad1a693",
+    "276492b08b804323b559952a5be876ae",
+    "5ba8bae3d8634301b3ec4d0bb78f70ee",
+    "6e5b3e325dfd4ae1a42fd72b02af581d",
+    "9a87b7217bee42dd863e8a091eb68980",
+    "c99b5adbda084e49b709f9ab2b9ef3f0",
+    "fc9d1aba1414476884864afd37ab14fc"
+   ],
+   "gold_count": 9,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q18",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "single_hop",
+   "query": "Do Jon and Gina start businesses out of what they love?",
+   "answer": "Yes",
+   "choices": [
+    "No, they were primarily motivated by financial gain.",
+    "Yes",
+    "They started their businesses due to family pressure.",
+    "Yes, fueled by a desire for personal recognition.",
+    "They started their businesses after a period of intense training.",
+    "Their businesses originated from a university project.",
+    "Yes, but it was mostly driven by market demand.",
+    "They began their ventures with a government grant.",
+    "No, they focused on filling a specific community need.",
+    "Their businesses were founded on a shared investment opportunity."
+   ],
+   "evidence": [
+    "D1:4",
+    "D6:8"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "yes"
+   ],
+   "gold_ids": [
+    "1bb998310a66408eb43db8682d08594b",
+    "31282da8fc4a46b0ba10bcb248915a0e",
+    "37b6d9a6c5b646198e5d720cf83a09bb",
+    "4a9cac7440234d1a8f5270cac54afebb",
+    "4bdd00a2a43d4487b9c8a1bdc88de52e",
+    "58d468e377c442859de86c91711a0dc8",
+    "6c345b4eab864d01a127cde289cf7453",
+    "6d44381961634e409126fb8511c316b8",
+    "772adde301da4ba69c6b0c3bb6107bd8",
+    "817604b839844bfcad4aeba074ba2060",
+    "9df6b17dca9b4090b11b273f6585e81f",
+    "a14147038d4043948e8f83f14d21cef9",
+    "a5bec6ca37684e26b40292213a29c747",
+    "af2171dd35204e8aaacab665a6c9791f",
+    "b25e139db86d43c4b05511a7341cd2b1",
+    "b42663cb2e6e43a7a2e61de1545939be",
+    "b603ee5e67374d9fa75e0deebd23ce17",
+    "b849c95f63144addb11da2dd8baa29ff",
+    "ba49f61917e34324bdf80f08a5ef6950",
+    "bae4e20dd66b4519bb95277cd52fb598",
+    "d175c37719574811a950039a707112c9",
+    "d1af31cd812a4c5a9b8a3586da351c98"
+   ],
+   "gold_count": 22,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q28",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "multi_hop",
+   "query": "When was Jon in Rome?",
+   "answer": "June 2023",
+   "choices": [
+    "April 2023",
+    "September 2023",
+    "July 2023",
+    "August 2023",
+    "June 2023",
+    "December 2023",
+    "May 2023",
+    "June 2022",
+    "October 2023",
+    "November 2023"
+   ],
+   "evidence": [
+    "D15:1"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "june",
+    "2023"
+   ],
+   "gold_ids": [
+    "012ba6ef2d04437792d5de9a192ca575",
+    "09fa029e13ae45d5abf52f960bc4285a",
+    "0c5260a29b914340ac3efc3c2f279192",
+    "22da0cfa0c124563b1c9705bfaa8eddf",
+    "297b3b8c34c1410da3728006b25904fb",
+    "30e3a6baf5294f98b6f6a96564bdab8a",
+    "508b88cca10d4d66966d155be63653dc",
+    "7ab87c6e89a145dba1795be8b4881bdb",
+    "d94b538ef8f64dc391287c0d2ece9ba4",
+    "e03f68f394c54dd39363caacc6028b98",
+    "f1e0e8641bce44458292af702b410d74"
+   ],
+   "gold_count": 11,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q55",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "open_domain",
+   "query": "What does Gina's tattoo symbolize?",
+   "answer": "Freedom and expressing herself through dance",
+   "choices": [
+    "A reminder of a cherished friendship from youth.",
+    "An homage to a beloved mentor and teacher.",
+    "A symbol of overcoming a past challenge.",
+    "A tribute to her favorite musical composer.",
+    "Her family history as a renowned ballerina.",
+    "A representation of a personal philosophical belief.",
+    "Freedom and expressing herself through dance",
+    "Her passion for painting and artistic expression.",
+    "A significant event during her childhood summers.",
+    "Her deep connection to a specific cultural tradition."
+   ],
+   "evidence": [
+    "D5:15"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "freedom",
+    "expressing",
+    "herself",
+    "through",
+    "dance"
+   ],
+   "gold_ids": [
+    "883714ad21aa4dbabcce92bc98ba7187"
+   ],
+   "gold_count": 1,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q27",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "single_hop",
+   "query": "Did Jon and Gina both participate in dance competitions?",
+   "answer": "Yes",
+   "choices": [
+    "Yes, but only in ballroom dancing.",
+    "Yes",
+    "No, only Jon competed in dance.",
+    "Gina competed, Jon was a judge.",
+    "They both took ballet lessons.",
+    "No, they both preferred other sports.",
+    "They both performed in school plays.",
+    "Neither Jon nor Gina danced competitively.",
+    "Gina participated, but not Jon.",
+    "Jon competed, Gina was a choreographer."
+   ],
+   "evidence": [
+    "D1:14",
+    "D14:14",
+    "D1:16",
+    "D1:17",
+    "D9:10"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "yes"
+   ],
+   "gold_ids": [
+    "059bec4b329c4874b285f690615defaa",
+    "14e6608fa8714fd8ac66190c299c51b6",
+    "16b0c7db2c0546c5b8c5a5428a4988b2",
+    "31282da8fc4a46b0ba10bcb248915a0e",
+    "37b6d9a6c5b646198e5d720cf83a09bb",
+    "4a9cac7440234d1a8f5270cac54afebb",
+    "500929be0a8e4e06b1d76e55cfd84666",
+    "5401bc2d64c3426b9fd1f88a0657acf2",
+    "5ecea5a0569b4f4a918abc203cdf262f",
+    "648f7e3515a8442f9af556d5e6a71beb",
+    "6c345b4eab864d01a127cde289cf7453",
+    "73f5875a7f344c43b51061ee0bc512dd",
+    "772adde301da4ba69c6b0c3bb6107bd8",
+    "90bd3eee8a3c49679d2054683ab988f0",
+    "958ecbfd410840c1a0c64979297c0199",
+    "9df6b17dca9b4090b11b273f6585e81f",
+    "a14147038d4043948e8f83f14d21cef9",
+    "a3dfc954758f4bccb5f0b2c4dd68d08e",
+    "a5e71ac65d3f447682929e794eb29006",
+    "af2171dd35204e8aaacab665a6c9791f",
+    "b42663cb2e6e43a7a2e61de1545939be",
+    "b849c95f63144addb11da2dd8baa29ff",
+    "ba49f61917e34324bdf80f08a5ef6950",
+    "bf6b5e896aba4b73be0b98ca1d94169d",
+    "cbfd77c39a684effa2296da2aaeac424",
+    "d0972b8ce5c34ae9ad2e34f16a78746b",
+    "d1af31cd812a4c5a9b8a3586da351c98",
+    "d1bf5dcff83d40c7acc99e3f1abd1109",
+    "e3344490bed04d81af21d42b5f653220",
+    "f1d5e8a057e84143bb38ca5883f29379",
+    "f4f361e77acc4335b258431c86ee04c0"
+   ],
+   "gold_count": 31,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-30_q30",
+   "conv": "conv-30",
+   "user_id": "locomo_conv-30",
+   "qtype": "multi_hop",
+   "query": "When Jon is planning to open his dance studio?",
+   "answer": "20 June, 2023",
+   "choices": [
+    "10 August, 2023",
+    "8 July, 2023",
+    "15 July, 2023",
+    "20 June, 2023",
+    "25 May, 2023",
+    "22 June, 2023",
+    "12 June, 2023",
+    "1 June, 2023",
+    "20 July, 2023",
+    "5 June, 2023"
+   ],
+   "evidence": [
+    "D15:5"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "20",
+    "june",
+    "2023"
+   ],
+   "gold_ids": [
+    "012ba6ef2d04437792d5de9a192ca575",
+    "09fa029e13ae45d5abf52f960bc4285a",
+    "0c5260a29b914340ac3efc3c2f279192",
+    "22da0cfa0c124563b1c9705bfaa8eddf",
+    "297b3b8c34c1410da3728006b25904fb",
+    "30e3a6baf5294f98b6f6a96564bdab8a",
+    "508b88cca10d4d66966d155be63653dc",
+    "7ab87c6e89a145dba1795be8b4881bdb",
+    "d94b538ef8f64dc391287c0d2ece9ba4",
+    "e03f68f394c54dd39363caacc6028b98",
+    "f1e0e8641bce44458292af702b410d74"
+   ],
+   "gold_count": 11,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q19",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "single_hop",
+   "query": "What damages have happened to John's car?",
+   "answer": "Broken windshield, Car broke down",
+   "choices": [
+    "Flat tire, dented fender",
+    "Broken windshield, Car broke down",
+    "Back window cracked, alarm malfunction",
+    "Door damage, faulty wipers",
+    "Engine overheating, transmission issue",
+    "Side mirror broken, radio not working",
+    "Headlight damage, tire puncture",
+    "Windshield chipped, battery drained",
+    "Rear bumper cracked, brake light out",
+    "Minor scratches, faulty headlights"
+   ],
+   "evidence": [
+    "D11:1",
+    "D4:2"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "broken",
+    "windshield",
+    "car",
+    "broke"
+   ],
+   "gold_ids": [
+    "035006e782c04ba3ac1892169a683961",
+    "0e369f5cabc54b76be68a9258a1e4746",
+    "0f9e0662382f4fe5b4c70dc95f222c42",
+    "184381f426fe444d84db2a8eaaa0c88c",
+    "1ede9df99c2a4986942390c15a286008",
+    "20452336c9ed4ee09ead1a31d21eb0d2",
+    "359672a9ba7c4bc5810474b0206bc522",
+    "37014b4db5fd43b987e9ec28f3461618",
+    "4bdf8e5aa37a4bc395e6d89164b40598",
+    "6619cd5b9fbc4c15a2a62c225a24febd",
+    "6ee5b3137d024bf78d77052c772554e8",
+    "778f7d90f5fa4130918e5232622341b4",
+    "7e02ccf51b1a4aa088a80cf58dfa21ad",
+    "98ee5176bbab42ac842d95b4f461f5c0",
+    "a17e85c70d134292bbed782e68301999",
+    "c71312e060eb404484fdfcb3f05c0a08",
+    "ccc3afd2acf7411bad740b05cfb64314",
+    "d312392e4908437b9c8cae1016639f58",
+    "d4be38ee98ae4675ba2fd26f573f971c",
+    "d70f7b9a95434e78a50efb6dff46c1c2",
+    "db757e58ca6d470f8710f7a327f966ea",
+    "fac34e40592a4b98b91bb7dc9f63eda5"
+   ],
+   "gold_count": 22,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q56",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "multi_hop",
+   "query": "When did John participate in a 5K charity run?",
+   "answer": "first weekend of August 2023",
+   "choices": [
+    "Early weekend of July 2023",
+    "Early June 2023",
+    "Second weekend of August 2022",
+    "First weekend of October 2023",
+    "Mid-August 2023",
+    "first weekend of August 2023",
+    "Second weekend of July 2024",
+    "Mid-September 2023",
+    "Late July 2023",
+    "First weekend of September 2023"
+   ],
+   "evidence": [
+    "D29:2",
+    "D29:4"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "first",
+    "weekend",
+    "august",
+    "2023"
+   ],
+   "gold_ids": [
+    "0045fa0350134f24b4f2a5efb8f6ae97",
+    "22c1b6e1ecd449d483791f9999d36134",
+    "46932de6146a4e91adaf935e2c846784",
+    "50af1c7c92984090991138221f5cf900",
+    "6a17a064106a4d74843d83f3fcdbfb32",
+    "6fe63464157744d9bad7072417c6b616",
+    "74157d8c22644db19ee63513cefaa4b5",
+    "82c75abc01ac44c9954b74d09223e153",
+    "94e6e1893d844666b0902b85ab82f4c9",
+    "9c5b8a275cfa461c9575546f60c6517d",
+    "a205b560a8044550b8710590b6397b2d"
+   ],
+   "gold_count": 11,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q17",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "temporal_reasoning",
+   "query": "What might John's degree be in?",
+   "answer": "Political science, Public administration, Public affairs",
+   "choices": [
+    "Political Communication, with a media studies focus",
+    "Economics, with a focus on international trade",
+    "Environmental Studies, focusing on policy solutions",
+    "Sociology, specializing in urban development",
+    "Urban Planning, with a focus on community development",
+    "Political science, Public administration, Public affairs",
+    "History, concentrating on 20th-century conflicts",
+    "Geography, concentrating on political landscapes",
+    "International Relations, specializing in diplomacy",
+    "Criminal Justice, with an emphasis on law enforcement"
+   ],
+   "evidence": [
+    "D9:6"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "political",
+    "science",
+    "public",
+    "administration",
+    "affairs"
+   ],
+   "gold_ids": [
+    "0da79dcd848e47fd819723ce0c7bebd7",
+    "16c9c7ad5cb3421c8b0c1a6c4110e0e1",
+    "1d94de7396dc474f977675a9a3138890",
+    "221049cdd8b3448a8f6c19f8b902c94a",
+    "4f0fbdff73fb4fbdb97a4701567c39f5",
+    "6e17c2d98886466fb96d28dd24434b23",
+    "79ae80cc48564c2394d442565e62039c",
+    "7dd0c309e57e4672a20bcd1f1eba1ea4",
+    "a708c0e9713040b788b65df5bac36ec8",
+    "add170f71d384d19ac0f042e7a561844",
+    "b86fbda9bf9d4dec9270b3c3bc142ef2"
+   ],
+   "gold_count": 11,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q129",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "open_domain",
+   "query": "What does John think about trying new classes at the yoga studio?",
+   "answer": "Trying new classes is a fun way to switch up the exercise routine.",
+   "choices": [
+    "He's concerned about the cost of the new classes.",
+    "He thinks it would be beneficial for improving his flexibility and balance.",
+    "John is unsure, needing more information about the class offerings.",
+    "John believes it's a good opportunity for personal growth and stress reduction.",
+    "Trying new classes is a fun way to switch up the exercise routine.",
+    "John is open to the idea, but prefers beginner-level classes.",
+    "John is very enthusiastic and wants to explore different styles of yoga.",
+    "He feels it's a waste of time and prefers his current routine.",
+    "John is excited to socialize and meet new people through the classes.",
+    "He's hesitant, citing scheduling conflicts with his current commitments."
+   ],
+   "evidence": [
+    "D25:14"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "trying",
+    "new",
+    "classes",
+    "fun",
+    "switch",
+    "exercise",
+    "routine"
+   ],
+   "gold_ids": [
+    "3520643d815a446d9ae9f4192757576d",
+    "383f5f2b5d854aba860e43b9c58bd62b",
+    "6f129a48fefc42a2ab2f923a2090dcc8",
+    "70938d465d70423cb9604fb83213da1c",
+    "a4202fafd83e488886ccab1de5ffbef3",
+    "b27d5c43d57241d58049a0cb0f2b8d59",
+    "b3cd5e624a0e47df88d5da8e90d9ed12",
+    "b43f5494cddc4109ab2b6d76b7fa4730",
+    "e5d894123b3148be839011b174c40872",
+    "e5dca8f8c14f4f4eb25e142639b66fbc",
+    "ee8c8f4cbb2e400993be1241c359410c"
+   ],
+   "gold_count": 11,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q30",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "single_hop",
+   "query": "What shelters does Maria volunteer at?",
+   "answer": "The homeless shelter, the dog shelter",
+   "choices": [
+    "The historical society, the museum",
+    "The veterans' hospital, the rehabilitation center",
+    "The wildlife sanctuary, the animal hospital",
+    "The youth center, the senior living facility",
+    "The food bank, the job training center",
+    "The homeless shelter, the dog shelter",
+    "The environmental center, the park",
+    "The animal rescue center, the community kitchen",
+    "The women's shelter, the children's home",
+    "The art center, the library"
+   ],
+   "evidence": [
+    "D2:1",
+    "D11:10",
+    "D17:12"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "homeless",
+    "shelter",
+    "dog"
+   ],
+   "gold_ids": [
+    "0051ac01c977467eb2df6d1bf187daa2",
+    "0e369f5cabc54b76be68a9258a1e4746",
+    "0f9e0662382f4fe5b4c70dc95f222c42",
+    "13150cc367fd42f6ac19e3b85da19fe2",
+    "184381f426fe444d84db2a8eaaa0c88c",
+    "1ede9df99c2a4986942390c15a286008",
+    "20452336c9ed4ee09ead1a31d21eb0d2",
+    "24f942c57bfa4803b803a8549603b36c",
+    "296024e28aa34e6eb823fc11eb1581f2",
+    "35299d4e1c37439ba2fd58b3115e7d5d",
+    "37014b4db5fd43b987e9ec28f3461618",
+    "480f67ddf5d8416c8be43cfc27dc8366",
+    "499c0c3b8eea476da2bcb9e26ab69884",
+    "6107db430eed4d1a838fd1a144ce6a4a",
+    "6619cd5b9fbc4c15a2a62c225a24febd",
+    "6a89791ac8e6477e96537ea7b9fcd90c",
+    "7106262abfb4427b8ea11c7205c2ab5d",
+    "778f7d90f5fa4130918e5232622341b4",
+    "82ffcdd7d78f484a99f3e447895c18f3",
+    "96eb1e76fd30432c93b6436bb445a8bc",
+    "9c5190a8609849ce9ce7d8035eaf558e",
+    "a17e85c70d134292bbed782e68301999",
+    "b3eec402791e4544b746bcb6a5e0da33",
+    "c71312e060eb404484fdfcb3f05c0a08",
+    "d07455abbbf44702ac7720cfd2d07168",
+    "f6481f8c7609400c9d8d8cceee9a905e",
+    "f93d186d62ed4d2f8cfff80d1f37ea48",
+    "fac34e40592a4b98b91bb7dc9f63eda5",
+    "fffd9a29dbe7496ebd3adb2b33c00014"
+   ],
+   "gold_count": 29,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q4",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "multi_hop",
+   "query": "When did John join the online support group?",
+   "answer": "The week before 1 January 2023",
+   "choices": [
+    "The week before 1 January 2023",
+    "Early December 2022",
+    "The last week of December 2022",
+    "The week of January 12, 2023",
+    "The month before 1 January 2023",
+    "The week after 1 January 2023",
+    "The day before 1 January 2023",
+    "Mid-December 2022",
+    "The week of December 26, 2022",
+    "The week of December 19, 2022"
+   ],
+   "evidence": [
+    "D3:1"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "week",
+    "1",
+    "january",
+    "2023"
+   ],
+   "gold_ids": [
+    "0b86e5f8740142419d535e2d99b00360",
+    "12ea31ef28e74963b933a07891388109",
+    "640ff4b56f394248bbf1ff1cb9f48589",
+    "83096112bba94f00bf3bb910c62f1cd5",
+    "ae85e7280c554d888466b05d26e3c1e6",
+    "b222851ec353429691d1d3d5e6c30029",
+    "c16244b07a0241c290821d29957957c0",
+    "d9c32b859f1b4686aa4d2bb707a6614b",
+    "dda8d84d7ed54352b9ef0d8d3a17bff9",
+    "ee32699fca4f4316b669d28afbe54a88",
+    "f93ac0d15d954800b9c787072affa94b"
+   ],
+   "gold_count": 11,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q41",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "temporal_reasoning",
+   "query": "Does John live close to a beach or the mountains?",
+   "answer": "beach",
+   "choices": [
+    "John enjoys the countryside living.",
+    "Mountains are his preferred scenery.",
+    "He lives in a valley surrounded by hills.",
+    "John's home is in a rural area.",
+    "He resides near a large forest.",
+    "John prefers living near the mountains.",
+    "beach",
+    "He lives near a river and hills.",
+    "Close to the city, not the coast.",
+    "Near a lake, not the ocean."
+   ],
+   "evidence": [
+    "D22:15"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "beach"
+   ],
+   "gold_ids": [
+    "10738a1eaa50425bbdc12447e6640270",
+    "21afd8d40a9e4a67b478e468f6a21a18",
+    "58304c68976341e384d91446a49dd014",
+    "6b0a3a1d197c4776bf33a6da9465b15c",
+    "72bde17c9f3e4c129913ff01cb14b2d7",
+    "8a58c455c4c54a33815b0d0525693eb8",
+    "95afa0b1ac4f488e82603138efb278d6",
+    "a1553ee36ee54167b4a0791fc24a879b",
+    "a831c137d9bf44e99492c15c892e83fb",
+    "ac65b3aaa40a4b66b8f91824e34309bb",
+    "c2f0aa6f9dc64cc2ad3e637142d206ea"
+   ],
+   "gold_count": 11,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q66",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "open_domain",
+   "query": "What sparked John's interest in improving education and infrastructure in the community?",
+   "answer": "Seeing how lack of education and crumbling infrastructure affected his neighborhood while growing up.",
+   "choices": [
+    "A pivotal experience volunteering at a rural school during his college years.",
+    "Seeing how lack of education and crumbling infrastructure affected his neighborhood while growing up.",
+    "A fundraising campaign for a local charity highlighted systemic community issues.",
+    "Reading a book detailing historical inequalities in resource allocation.",
+    "His involvement in a local civic organization focused on neighborhood improvements.",
+    "A personal encounter with a teacher who inspired him to pursue social change.",
+    "A news report about a major infrastructure failure in a nearby city.",
+    "His professional work as an urban planner exposed him to critical community needs.",
+    "A conversation with a local politician about upcoming development projects.",
+    "Witnessing the success of a community-led revitalization initiative in a neighboring town."
+   ],
+   "evidence": [
+    "D1:10"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "seeing",
+    "lack",
+    "education",
+    "crumbling",
+    "infrastructure",
+    "affected",
+    "neighborhood",
+    "growing"
+   ],
+   "gold_ids": [
+    "0115a9d3609c4553bdf9e0fa6ea0e821",
+    "1c766c565b99436aac2bc7959f3bdca5",
+    "27e4b1712b574d71930f49654994c214",
+    "5d92a818c3c64813aef697a5f1122575",
+    "693400126f404d43b55239fd592341d4",
+    "6cad982f4954445a8215bd760fea8f43",
+    "a6d0819efeb84ece9c7e7acd254f654b",
+    "c6c7288f0bca484e8cb5868d13c8b72a",
+    "cb4b2cd3f84b44b796624e795ef48a78",
+    "ed1e172ee2224443b9cd5a500e8ba35f",
+    "edf0009f141b42778ca47c7d478c4d84"
+   ],
+   "gold_count": 11,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q40",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "single_hop",
+   "query": "What are the names of John's children?",
+   "answer": "Kyle, Sara",
+   "choices": [
+    "David, Jessica",
+    "Matthew, Laura",
+    "James, Lisa",
+    "Michael, Emily",
+    "Thomas, Michelle",
+    "Kyle, Sara",
+    "Andrew, Susan",
+    "William, Jennifer",
+    "Robert, Ashley",
+    "Christopher, Karen"
+   ],
+   "evidence": [
+    "D8:4",
+    "D22:7"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "kyle",
+    "sara"
+   ],
+   "gold_ids": [
+    "0aff38683c8347cda3a37c7dd4c6dae8",
+    "10738a1eaa50425bbdc12447e6640270",
+    "13372a5694e24a0f918758e101601d87",
+    "1833326485234b36a5d2f55fe4f138c6",
+    "1ffc481e0d874b58b7831b0a663a1328",
+    "21afd8d40a9e4a67b478e468f6a21a18",
+    "44bcc830e0cd403b89e0532eb4975d80",
+    "58304c68976341e384d91446a49dd014",
+    "5e821e0191a14fb4b51832ee1742771f",
+    "66bd9f84a247496481d64c01939d309b",
+    "6b0a3a1d197c4776bf33a6da9465b15c",
+    "72bde17c9f3e4c129913ff01cb14b2d7",
+    "868b4cfe9dfa4fe498a4ad784b3e6871",
+    "8a58c455c4c54a33815b0d0525693eb8",
+    "95afa0b1ac4f488e82603138efb278d6",
+    "a1553ee36ee54167b4a0791fc24a879b",
+    "a831c137d9bf44e99492c15c892e83fb",
+    "ac65b3aaa40a4b66b8f91824e34309bb",
+    "c2f0aa6f9dc64cc2ad3e637142d206ea",
+    "da0fbc2df0e94bb89f9bcdda7583e007",
+    "db02d8cb0004460e8b3cd53a32c47cee",
+    "f6c81606e65e4f76a2dfd5c17093fc33",
+    "fcd68d5ccaf74e9f91026d2e5ff7f7ca",
+    "feedaaa94d894ab4b7f362ad8b2b3d8b"
+   ],
+   "gold_count": 24,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q43",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "multi_hop",
+   "query": "When was John's old area hit with a flood?",
+   "answer": "The week before 7 July 2023",
+   "choices": [
+    "Early July 2023, specifically the 1st week",
+    "Between 28 June and 4 July 2023",
+    "Sometime in late June 2023",
+    "The week leading up to July 7th, 2023",
+    "The week after 7 July 2023",
+    "The month after 7 July 2023",
+    "The week before 21 July 2023",
+    "Around 14 July 2023",
+    "Around the 10th of July 2023",
+    "The week before 7 July 2023"
+   ],
+   "evidence": [
+    "D23:1"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "week",
+    "7",
+    "july",
+    "2023"
+   ],
+   "gold_ids": [
+    "02e084e82ddd4dae9495a0fe37127d35",
+    "736e6f3991bd4cb8b4fd08e9ca2f4708",
+    "771186932cb74e00b07b63deba24bceb",
+    "9cbd42abe2524e39a2c02b6127d9bf06",
+    "c7568e61f21744a082d2e820ddaa560b",
+    "cae3d27cf87e443b886d009ceaf572b4",
+    "e210ebc40d4d4b72ae4255e7f63573b9",
+    "e619b85cc89a48a19833d4e9c2acfcc8"
+   ],
+   "gold_count": 8,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q45",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "temporal_reasoning",
+   "query": "Would John be open to moving to another country?",
+   "answer": "No, he has goals specifically in the U.S. like joining the military and running for office.",
+   "choices": [
+    "He's exploring options, but prefers countries with a similar climate and culture.",
+    "He's hesitant due to family commitments and concerns about cultural adjustment.",
+    "It depends on the country; he's interested in countries with strong democratic values.",
+    "No, he has goals specifically in the U.S. like joining the military and running for office.",
+    "He would be open to it, especially if it offered advanced educational programs.",
+    "Yes, he's expressed interest in international opportunities to broaden his experience.",
+    "He's willing to relocate, provided there's a high demand for his skillset.",
+    "Possibly, but only if it aligns with his political aspirations and diplomatic goals.",
+    "He's open to temporary assignments abroad, but not permanent relocation.",
+    "He's considering it, but prioritizes opportunities within the European Union."
+   ],
+   "evidence": [
+    "D24:3",
+    "D7:2"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "goals",
+    "specifically",
+    "joining",
+    "military",
+    "running",
+    "office"
+   ],
+   "gold_ids": [
+    "13f60a1a67f34b128f1caa2bc3d62fc7",
+    "205506b2722e42498ec0c6b71000ce70",
+    "2e69ba518fd04443b39fc0bdc17cc4d7",
+    "401a89f67c574d76a1a0a54e16325123",
+    "44f42d89fae0400bb6fbd45ac888cb5c",
+    "5635babdfe1647739dd55b42ea162215",
+    "5df6ac0e88b44c1eb6a55a67009858f8",
+    "6c0cbf305cc040cb898ba7097a04d66f",
+    "78a9873814b34664a301a7e2229b9cbc",
+    "920e30b2c1bd4a25a51fcff06df2c895",
+    "a2494665fa3a4cabb49b79d0613c2c17",
+    "a2ce53340aa24c43b1652dac8a545a94",
+    "a2e1cc4f0238419fabcb13aae3b15ca6",
+    "a7e4a8fe232f4fe5b1ded77a8342a736",
+    "baf7af7f8d3e422bb355a17f6b2b6220",
+    "bd6e43c738944291a3e26a98d1f46534",
+    "c9a71f9999714c85a5e12b66cd1eb3ab",
+    "dd64f89a41054bf1a458509d64207735",
+    "e9085e34c72049ea96b08c93428dd175",
+    "eb36398166b8493abb81d0ee5b541240",
+    "fb3525516bf147bebcde1ff6a2000340"
+   ],
+   "gold_count": 21,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q113",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "open_domain",
+   "query": "What was one of the biggest challenges John faced in his journey to becoming assistant manager?",
+   "answer": "self-doubt",
+   "choices": [
+    "Adapting to new company policies.",
+    "Managing difficult team dynamics.",
+    "Prioritizing tasks under pressure.",
+    "Budgeting for departmental expenses.",
+    "Completing extensive training programs.",
+    "Meeting strict sales quotas.",
+    "Dealing with demanding clients.",
+    "Building rapport with senior staff.",
+    "Navigating office politics effectively.",
+    "self-doubt"
+   ],
+   "evidence": [
+    "D19:12"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "self",
+    "doubt"
+   ],
+   "gold_ids": [
+    "0e2d8a746d1c40ee81a765f10398c30f",
+    "1d3bcd852c574304b45c7efe58b0d43e",
+    "4826a22a0d5a47f5ac7a351fa08aa0e9",
+    "5b53d3d664014dc6a8f60363195af34e",
+    "62cc3039c7544416b00c9903773ecc06",
+    "75d9db5d47f146d895ddaddf4a89e5db",
+    "bc51048af85f424a855bb16f08421587",
+    "c0792734ae5d4498a11076f53a2e9143",
+    "d09d5308791743d1bb09a0ad631dc10a",
+    "e261e96be0484722b921f95d62c3b93b"
+   ],
+   "gold_count": 10,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q57",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "single_hop",
+   "query": "What causes has John done events for?",
+   "answer": "Toy drive, Community food drive, veterans, domestic violence",
+   "choices": [
+    "Senior citizen centers, assisted living facilities, nursing homes, retirement communities",
+    "Toy drive, Community food drive, veterans, domestic violence",
+    "Arts festivals, cultural events, theater productions, music concerts",
+    "Educational workshops, tutoring programs, scholarship fundraising, literacy initiatives",
+    "Political campaigns, voter registration drives, civic engagement, advocacy groups",
+    "Environmental cleanups, park restoration, tree planting, river conservation",
+    "Cancer research, heart disease awareness, Alzheimer's support, diabetes prevention",
+    "Youth sports leagues, after-school programs, summer camps, recreational activities",
+    "Animal shelter fundraising, local schools, homeless shelters, youth programs",
+    "Disaster relief efforts, earthquake recovery, hurricane assistance, flood aid"
+   ],
+   "evidence": [
+    "D3:5",
+    "D6:12",
+    "D29:4",
+    "D29:10"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "toy",
+    "drive",
+    "community",
+    "food",
+    "veterans",
+    "domestic",
+    "violence"
+   ],
+   "gold_ids": [
+    "0045fa0350134f24b4f2a5efb8f6ae97",
+    "05c187aacbcd42b3a3904dc805ec4615",
+    "0b86e5f8740142419d535e2d99b00360",
+    "0f14b7d86d4740ab8655e039fcf7984d",
+    "12ea31ef28e74963b933a07891388109",
+    "18208071bea04388a53f480e0f9eab9f",
+    "22c1b6e1ecd449d483791f9999d36134",
+    "2f007d9bdf864d518281c8ce15c24220",
+    "34145480bc604e6b81de747481b96663",
+    "3c9303f23d414e5cb168d1e828bafd17",
+    "46932de6146a4e91adaf935e2c846784",
+    "50af1c7c92984090991138221f5cf900",
+    "640ff4b56f394248bbf1ff1cb9f48589",
+    "6a17a064106a4d74843d83f3fcdbfb32",
+    "6fe63464157744d9bad7072417c6b616",
+    "74157d8c22644db19ee63513cefaa4b5",
+    "82c75abc01ac44c9954b74d09223e153",
+    "83096112bba94f00bf3bb910c62f1cd5",
+    "94e6e1893d844666b0902b85ab82f4c9",
+    "976b35bc9cd64250957e7fe75728f541",
+    "9c5b8a275cfa461c9575546f60c6517d",
+    "a205b560a8044550b8710590b6397b2d",
+    "ae85e7280c554d888466b05d26e3c1e6",
+    "b222851ec353429691d1d3d5e6c30029",
+    "c16244b07a0241c290821d29957957c0",
+    "d9c32b859f1b4686aa4d2bb707a6614b",
+    "dda8d84d7ed54352b9ef0d8d3a17bff9",
+    "ea2c1b75295a41d385d0672e53d6c8ba",
+    "ee32699fca4f4316b669d28afbe54a88",
+    "f93ac0d15d954800b9c787072affa94b",
+    "fc0ecd8dbbb34fcdbce2320d1c796f44"
+   ],
+   "gold_count": 31,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q61",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "multi_hop",
+   "query": "When did Maria adopt Shadow?",
+   "answer": "The week before 13 August 2023",
+   "choices": [
+    "The week before 13 August 2023",
+    "Just before the 13th of August in 2023",
+    "Sometime in July 2023, prior to the 13th",
+    "Late July 2023, before the 13th of August",
+    "The week of August 6th, 2023",
+    "Around 10 August 2023",
+    "The month before 13 August 2023",
+    "A few days before August 13th, 2023",
+    "In early August 2023, just before the 13th",
+    "The week leading up to August 13th, 2023"
+   ],
+   "evidence": [
+    "D31:2"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "week",
+    "13",
+    "august",
+    "2023"
+   ],
+   "gold_ids": [
+    "02dfc1958b6e42a194eb6e488cd3a27c",
+    "0731355902204fd99e1764d3f5ac345f",
+    "107c89fb0f87436cb3636630403d9c6f",
+    "524f6afd6d6447e48dcd2d2536991e0f",
+    "548ca7bff1b14b82a1c66f3884a45ffa",
+    "a0415ccc5b944231ac510a6a832ba587",
+    "b25c6e0aaa4643e28d6c94eefe34bef3",
+    "cdafa685a8ce4a158eec4b24f321714a",
+    "e1b2796fbdc143feb6a24955cd646c64",
+    "e97b4db80c684b2c8027f8e86854d9b2",
+    "ef851354fe26495c9209b6e6c6815440"
+   ],
+   "gold_count": 11,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q14",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "temporal_reasoning",
+   "query": "Would John be considered a patriotic person?",
+   "answer": "Yes",
+   "choices": [
+    "It's unclear; his views were often private.",
+    "Generally, no; he was quite cynical.",
+    "No, he prioritized personal gain above national interests.",
+    "Yes, he actively participated in civic duties.",
+    "It depends on his definition of patriotism.",
+    "He expressed moderate national pride occasionally.",
+    "Yes, especially during times of conflict.",
+    "Yes",
+    "Possibly, depending on his political affiliations.",
+    "Not really; he favored international cooperation."
+   ],
+   "evidence": [
+    "D8:18",
+    "D8:20"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "yes"
+   ],
+   "gold_ids": [
+    "0aff38683c8347cda3a37c7dd4c6dae8",
+    "13372a5694e24a0f918758e101601d87",
+    "1833326485234b36a5d2f55fe4f138c6",
+    "1ffc481e0d874b58b7831b0a663a1328",
+    "44bcc830e0cd403b89e0532eb4975d80",
+    "5e821e0191a14fb4b51832ee1742771f",
+    "66bd9f84a247496481d64c01939d309b",
+    "868b4cfe9dfa4fe498a4ad784b3e6871",
+    "da0fbc2df0e94bb89f9bcdda7583e007",
+    "db02d8cb0004460e8b3cd53a32c47cee",
+    "f6c81606e65e4f76a2dfd5c17093fc33",
+    "fcd68d5ccaf74e9f91026d2e5ff7f7ca",
+    "feedaaa94d894ab4b7f362ad8b2b3d8b"
+   ],
+   "gold_count": 13,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q146",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "open_domain",
+   "query": "Why does John say he feels stuck and questioning his decisions and goals?",
+   "answer": "Not feeling like making much of an impact",
+   "choices": [
+    "Questioning his chosen career path's relevance.",
+    "Concerns about the company's future stability.",
+    "Difficulty balancing personal and professional life.",
+    "Experiencing burnout from long work hours.",
+    "Feeling isolated from colleagues and peers.",
+    "Not feeling like making much of an impact",
+    "Disagreement with recent company policy changes.",
+    "Struggling with a recent career setback.",
+    "Feeling a lack of recognition for his efforts.",
+    "Uncertainty about future opportunities for growth."
+   ],
+   "evidence": [
+    "D30:14"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "feeling",
+    "making",
+    "much",
+    "impact"
+   ],
+   "gold_ids": [
+    "02879e31bf42405db6242a4ae7306aba",
+    "082163294c654e2eadd7fd903f654027",
+    "19b3cc8c37ff4b02b3aaea96225535b4",
+    "1cfa3527e4e14b9cb1f1dc1f7203fc62",
+    "320aadce240c463b817bb601702e409b",
+    "546d2740860144c397df154d1a139252",
+    "6241e5770171410598fdcd4e71932414",
+    "a8e6661fd031408cac70ab77e1de41fc",
+    "bd1bdbdeefbb4fea80e4a215863059dd",
+    "fabde6dfba9842f6bcd36f5c573573fb"
+   ],
+   "gold_count": 10,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q36",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "single_hop",
+   "query": "What music events has John attended?",
+   "answer": "Live music event, violin concert",
+   "choices": [
+    "Classical music recital, opera performance",
+    "Electronic music event, DJ set",
+    "Broadway show, musical theatre performance",
+    "Comedy show, stand-up performance",
+    "Jazz festival, blues showcase concert",
+    "Film score concert, movie soundtrack event",
+    "Live music event, violin concert",
+    "Acoustic performance, folk music show",
+    "Dance performance, ballet recital",
+    "Rock concert, pop music show"
+   ],
+   "evidence": [
+    "D20:4",
+    "D8:12"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "live",
+    "music",
+    "event",
+    "violin",
+    "concert"
+   ],
+   "gold_ids": [
+    "0aff38683c8347cda3a37c7dd4c6dae8",
+    "0ca30d62f1ac4c68b31aedf2f72f6960",
+    "13372a5694e24a0f918758e101601d87",
+    "1833326485234b36a5d2f55fe4f138c6",
+    "1911e248ce854b6a944bdb946930ac2b",
+    "1a0033ee334449b4a1d3b4924372baad",
+    "1ffc481e0d874b58b7831b0a663a1328",
+    "21262b378a0b4b67bce84e29cae2a3ae",
+    "44bcc830e0cd403b89e0532eb4975d80",
+    "5e821e0191a14fb4b51832ee1742771f",
+    "66bd9f84a247496481d64c01939d309b",
+    "720b07c9d89547fba9c00417ef4e7992",
+    "7933867106af4e3187a035451cd7dfaa",
+    "79f9a65cf4fe4673bcf2d99274347914",
+    "868b4cfe9dfa4fe498a4ad784b3e6871",
+    "99121663e62a41a483558bb02325e6c3",
+    "d88b9682e1b6453a85837cb98d3361de",
+    "da0fbc2df0e94bb89f9bcdda7583e007",
+    "db02d8cb0004460e8b3cd53a32c47cee",
+    "f6c81606e65e4f76a2dfd5c17093fc33",
+    "fcd68d5ccaf74e9f91026d2e5ff7f7ca",
+    "feedaaa94d894ab4b7f362ad8b2b3d8b"
+   ],
+   "gold_count": 22,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q22",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "multi_hop",
+   "query": "When did John go to a convention with colleagues?",
+   "answer": "March 2023",
+   "choices": [
+    "January 2023",
+    "July 2023",
+    "November 2022",
+    "April 2023",
+    "February 2023",
+    "September 2023",
+    "March 2023",
+    "October 2023",
+    "December 2022",
+    "May 2023"
+   ],
+   "evidence": [
+    "D12:9"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "march",
+    "2023"
+   ],
+   "gold_ids": [
+    "348b327aa72140a59a31f180ac0ec1ca",
+    "3677be7de7ea448d9893aaa64c04daa2",
+    "44effb182fbb4e87ba11fc4b59c5fb1d",
+    "593adf92a95845da80579c40057796a6",
+    "731ad68859b846bf990f8c3c12604675",
+    "899b4f79affd44fe9deb39681b2d576b",
+    "9579fbfefe2f4137ad3cc2f26da709b0",
+    "9d31c67abf074996b6c194b6dc7e4969",
+    "e8dc91d9715b492da6b772b6c55ec803",
+    "fedca95b03784ac0b504ea9d311d2fbf"
+   ],
+   "gold_count": 10,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q8",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "temporal_reasoning",
+   "query": "What might John's financial status be?",
+   "answer": "Middle-class or wealthy",
+   "choices": [
+    "Middle-class or wealthy",
+    "Struggling financially, facing significant debt.",
+    "Retired and financially secure.",
+    "Self-employed, with fluctuating income.",
+    "Economically unstable, relying on assistance.",
+    "Comfortable, with modest savings.",
+    "Living paycheck to paycheck, with little surplus.",
+    "Recently inherited a substantial fortune.",
+    "Upper-middle class, with a stable income.",
+    "Wealthy entrepreneur with multiple investments."
+   ],
+   "evidence": [
+    "D5:5"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "middle",
+    "class",
+    "wealthy"
+   ],
+   "gold_ids": [
+    "14781c8c0a254b95af522ec88d6c81d7",
+    "39fec3dc02ad4e8eb2ce664aac9fc1d7",
+    "3a0876f993674b949dd073af45b969de",
+    "60d79b42c4fb439a8106bf209884b808",
+    "73dd4cf67b5a4f8f8ad447d511dd5687",
+    "7a8ab4221da74bc3b049f34ad4afdc21",
+    "893d21fcbc0b437aa5abe5bcb0561a62",
+    "c65a23acc4184df68c76364d0d975fa3",
+    "cbce026871144cb19a9c8201789c1e60",
+    "e5b158d582a94c53802760675aff433d"
+   ],
+   "gold_count": 10,
+   "gold_kind": "evidence",
+   "top_k": 100
+  },
+  {
+   "id": "conv-41_q125",
+   "conv": "conv-41",
+   "user_id": "locomo_conv-41",
+   "qtype": "open_domain",
+   "query": "What does John appreciate about the veteran's hospital visit?",
+   "answer": "the resilience of the veterans and their inspiring stories",
+   "choices": [
+    "The camaraderie and sense of community among the veteran patients.",
+    "The chance to honor the sacrifices made by those who served the country.",
+    "The historical significance of the hospital as a center for veteran healing.",
+    "The opportunity to share his own wartime experiences with younger generations.",
+    "The peaceful environment and therapeutic activities offered to patients.",
+    "The advanced medical technology and specialized care available there.",
+    "the resilience of the veterans and their inspiring stories",
+    "The supportive family environment fostered within the hospital walls.",
+    "The dedicated staff who provide compassionate and attentive care.",
+    "The educational programs and workshops designed for veteran well-being."
+   ],
+   "evidence": [
+    "D24:3"
+   ],
+   "evidence_missing": [],
+   "gold_tokens": [
+    "resilience",
+    "veterans",
+    "inspiring",
+    "stories"
+   ],
+   "gold_ids": [
+    "401a89f67c574d76a1a0a54e16325123",
+    "44f42d89fae0400bb6fbd45ac888cb5c",
+    "5df6ac0e88b44c1eb6a55a67009858f8",
+    "78a9873814b34664a301a7e2229b9cbc",
+    "920e30b2c1bd4a25a51fcff06df2c895",
+    "a2ce53340aa24c43b1652dac8a545a94",
+    "a2e1cc4f0238419fabcb13aae3b15ca6",
+    "a7e4a8fe232f4fe5b1ded77a8342a736",
+    "c9a71f9999714c85a5e12b66cd1eb3ab",
+    "dd64f89a41054bf1a458509d64207735",
+    "eb36398166b8493abb81d0ee5b541240",
+    "fb3525516bf147bebcde1ff6a2000340"
+   ],
+   "gold_count": 12,
+   "gold_kind": "evidence",
+   "top_k": 100
+  }
+ ]
+}

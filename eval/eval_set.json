@@ -1,0 +1,189 @@
+{
+  "_doc": "本地回归评测集：同一份 user 记忆快照 + 同一 query，分别打 v1/v2，比较检索/覆盖质量。gold 为内容正则（不依赖 id），因此两个库 id 不同也能公平比对。",
+  "users": {
+    "knee": "u_56d3c8e3472cb8d469229c64f3234a2b714d0ca1dfe28d575e95e956305429c9"
+  },
+  "items": [
+    {
+      "id": "A1-job",
+      "cat": "A1",
+      "user": "knee",
+      "query": "我平时是做什么工作的？",
+      "top_k": 100,
+      "must": ["摄影师"],
+      "note": "单点事实；全库仅 2 条记忆含该词，区分度高"
+    },
+    {
+      "id": "A1-side",
+      "cat": "A1",
+      "user": "knee",
+      "query": "我膝盖疼的是哪一边？",
+      "top_k": 100,
+      "must": ["右膝"],
+      "note": "部位事实"
+    },
+    {
+      "id": "A1-peak-nrs",
+      "cat": "A1",
+      "user": "knee",
+      "query": "我膝盖最疼的时候大概是NRS几分？",
+      "top_k": 100,
+      "must": ["NRS\\s*[-－]?\\s*5"],
+      "note": "疼痛峰值"
+    },
+    {
+      "id": "A1-morning-first",
+      "cat": "A1",
+      "user": "knee",
+      "query": "我早上起来膝盖僵硬大概多久？",
+      "top_k": 100,
+      "must": ["晨僵|僵硬"],
+      "any": ["十分钟|10\\s*[-到]\\s*15\\s*分钟"],
+      "note": "初始晨僵时长"
+    },
+    {
+      "id": "A2-who-celecoxib",
+      "cat": "A2",
+      "user": "knee",
+      "query": "塞来昔布是谁给我开的？",
+      "top_k": 100,
+      "must": ["塞来昔布"],
+      "any": ["社区医院|社区医生"],
+      "note": "实体/来源归因"
+    },
+    {
+      "id": "A2-anticoagulant",
+      "cat": "A2",
+      "user": "knee",
+      "query": "我长期在吃的抗凝药是什么？",
+      "top_k": 100,
+      "must": ["华法林"],
+      "note": "长期用药"
+    },
+    {
+      "id": "A2-allergy",
+      "cat": "A2",
+      "user": "knee",
+      "query": "我对哪种药过敏？",
+      "top_k": 100,
+      "must": ["双氯芬酸"],
+      "note": "过敏史"
+    },
+    {
+      "id": "A2-who-advised-stop",
+      "cat": "A2",
+      "user": "knee",
+      "query": "是谁建议我停掉扶他林的？",
+      "top_k": 100,
+      "must": ["扶他林"],
+      "any": ["停"],
+      "note": "行动/建议归因（对话内为医生/assistant）"
+    },
+    {
+      "id": "C1-jan20-morning",
+      "cat": "C1",
+      "user": "knee",
+      "query": "1月20日前后我的晨僵变成了多久？",
+      "top_k": 100,
+      "must": ["晨僵[\\s\\S]{0,40}(十五|15)\\s*分钟"],
+      "note": "时间定位 + 时长；全库仅 chunk/fact 各 1 条"
+    },
+    {
+      "id": "C1-jan12-skin",
+      "cat": "C1",
+      "user": "knee",
+      "query": "1月12日前后我涂扶他林后皮肤有什么反应？",
+      "top_k": 100,
+      "must": ["扶他林"],
+      "any": ["淡粉红|发红|发热"],
+      "note": "日期 → 事件细节"
+    },
+    {
+      "id": "C1-feb02-province",
+      "cat": "C1",
+      "user": "knee",
+      "query": "2月2日那次外省拍摄后我的膝盖怎么样？",
+      "top_k": 100,
+      "must": ["外省|草地"],
+      "any": ["NRS\\s*[-－]?\\s*5|5\\s*分"],
+      "note": "日期 + 事件 + 状态"
+    },
+    {
+      "id": "C2-order-stop",
+      "cat": "C2",
+      "user": "knee",
+      "query": "我先停用的是哪一种药，扶他林还是塞来昔布？",
+      "top_k": 100,
+      "must": ["扶他林[\\s\\S]{0,60}停|停[\\s\\S]{0,60}扶他林"],
+      "note": "事件顺序：先停扶他林"
+    },
+    {
+      "id": "D1-latest-morning",
+      "cat": "D1",
+      "user": "knee",
+      "query": "我最近一次说的晨僵时间是多久？",
+      "top_k": 100,
+      "must": ["晨僵[\\s\\S]{0,60}二十|二十[\\s\\S]{0,40}晨僵"],
+      "note": "新值覆盖：10→15→20 分钟，当前应为二十来分钟"
+    },
+    {
+      "id": "D2-morning-conflict",
+      "cat": "D2",
+      "user": "knee",
+      "query": "我的晨僵从一开始到后来有什么变化？",
+      "top_k": 100,
+      "must": ["晨僵"],
+      "any": ["十分钟|10\\s*分钟"],
+      "note": "冲突/轨迹：需要至少带回早期值；与 D1 配对看是否同时保留新旧"
+    },
+    {
+      "id": "E1-format",
+      "cat": "E1",
+      "user": "knee",
+      "query": "我希望把自检清单做成什么形式？",
+      "top_k": 100,
+      "must": ["三行"],
+      "note": "用户偏好：三行超短版"
+    },
+    {
+      "id": "B-workload",
+      "cat": "B1",
+      "user": "knee",
+      "query": "我一天外拍要走多久、背多重的器材？",
+      "top_k": 100,
+      "must": ["公斤"],
+      "any": ["十二|12|八|8"],
+      "note": "多证据聚合：12kg / 走八九小时"
+    },
+    {
+      "id": "F1-summary-zh-k100",
+      "cat": "F1",
+      "user": "knee",
+      "query": "总结一下我们聊过的全部内容",
+      "top_k": 100,
+      "must": ["右膝"],
+      "coverage": ["摄影师|外拍", "右膝", "晨僵", "扶他林", "塞来昔布", "华法林", "斜坡|草地", "NRS"],
+      "note": "摘要题（官方常见 k=100）：v1 关闭 summary、v2 门控需 k>=300"
+    },
+    {
+      "id": "F1-summary-en-k500",
+      "cat": "F1",
+      "user": "knee",
+      "query": "summary of everything we discussed",
+      "top_k": 500,
+      "must": ["右膝"],
+      "coverage": ["摄影师|外拍", "右膝", "晨僵", "扶他林", "塞来昔布", "华法林", "斜坡|草地", "NRS"],
+      "note": "摘要题 k=500：v2 会进入 summary 模式（全量+时间线）"
+    },
+    {
+      "id": "F1-summary-zh-k500",
+      "cat": "F1",
+      "user": "knee",
+      "query": "总结一下我们聊过的全部内容",
+      "top_k": 500,
+      "must": ["右膝"],
+      "coverage": ["摄影师|外拍", "右膝", "晨僵", "扶他林", "塞来昔布", "华法林", "斜坡|草地", "NRS"],
+      "note": "摘要题 k=500 中文：v1 正则只认英文，v2 加了中文分支"
+    }
+  ]
+}

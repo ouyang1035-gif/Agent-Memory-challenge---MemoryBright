@@ -1,0 +1,61 @@
+{
+  "_doc": "换一批问题：对 eval_set 19 项各写 2 个同义改写（口语化中文 / 英文或关键词式），gold 正则不变（打的是记忆内容）。用于衡量同一份记忆在换问法后的检索稳定性。",
+  "items": [
+    {"id": "A1-job-p1", "src": "A1-job", "user": "knee", "top_k": 100, "query": "我是靠什么职业谋生的？", "must": ["摄影师"]},
+    {"id": "A1-job-p2", "src": "A1-job", "user": "knee", "top_k": 100, "query": "what do I do for a living?", "must": ["摄影师"]},
+
+    {"id": "A1-side-p1", "src": "A1-side", "user": "knee", "top_k": 100, "query": "疼痛主要是在左腿还是右腿？", "must": ["右膝"]},
+    {"id": "A1-side-p2", "src": "A1-side", "user": "knee", "top_k": 100, "query": "which knee hurts, left or right?", "must": ["右膝"]},
+
+    {"id": "A1-peak-nrs-p1", "src": "A1-peak-nrs", "user": "knee", "top_k": 100, "query": "疼痛最严重的时候评分是多少？", "must": ["NRS\\s*[-－]?\\s*5"]},
+    {"id": "A1-peak-nrs-p2", "src": "A1-peak-nrs", "user": "knee", "top_k": 100, "query": "what was my highest pain score?", "must": ["NRS\\s*[-－]?\\s*5"]},
+
+    {"id": "A1-morning-first-p1", "src": "A1-morning-first", "user": "knee", "top_k": 100, "query": "刚起床那会儿关节发僵会持续多长时间？", "must": ["晨僵|僵硬"], "any": ["十分钟|10\\s*[-到]\\s*15\\s*分钟"]},
+    {"id": "A1-morning-first-p2", "src": "A1-morning-first", "user": "knee", "top_k": 100, "query": "how long did my morning stiffness last at first?", "must": ["晨僵|僵硬"], "any": ["十分钟|10\\s*[-到]\\s*15\\s*分钟"]},
+
+    {"id": "A2-who-celecoxib-p1", "src": "A2-who-celecoxib", "user": "knee", "top_k": 100, "query": "哪个医生开的塞来昔布？", "must": ["塞来昔布"], "any": ["社区医院|社区医生"]},
+    {"id": "A2-who-celecoxib-p2", "src": "A2-who-celecoxib", "user": "knee", "top_k": 100, "query": "who prescribed celecoxib for me?", "must": ["塞来昔布"], "any": ["社区医院|社区医生"]},
+
+    {"id": "A2-anticoagulant-p1", "src": "A2-anticoagulant", "user": "knee", "top_k": 100, "query": "我需要一直吃的那种抗凝血药叫什么？", "must": ["华法林"]},
+    {"id": "A2-anticoagulant-p2", "src": "A2-anticoagulant", "user": "knee", "top_k": 100, "query": "what blood thinner do I take regularly?", "must": ["华法林"]},
+
+    {"id": "A2-allergy-p1", "src": "A2-allergy", "user": "knee", "top_k": 100, "query": "我吃哪种药会过敏？", "must": ["双氯芬酸"]},
+    {"id": "A2-allergy-p2", "src": "A2-allergy", "user": "knee", "top_k": 100, "query": "which medication am I allergic to?", "must": ["双氯芬酸"]},
+
+    {"id": "A2-who-advised-stop-p1", "src": "A2-who-advised-stop", "user": "knee", "top_k": 100, "query": "谁让我不要再使用扶他林？", "must": ["扶他林"], "any": ["停"]},
+    {"id": "A2-who-advised-stop-p2", "src": "A2-who-advised-stop", "user": "knee", "top_k": 100, "query": "who told me to stop voltaren?", "must": ["扶他林"], "any": ["停"]},
+
+    {"id": "C1-jan20-morning-p1", "src": "C1-jan20-morning", "user": "knee", "top_k": 100, "query": "到了1月20日左右，我早上僵硬的时间变成多长？", "must": ["晨僵[\\s\\S]{0,40}(十五|15)\\s*分钟"]},
+    {"id": "C1-jan20-morning-p2", "src": "C1-jan20-morning", "user": "knee", "top_k": 100, "query": "around Jan 20, how long was my morning stiffness?", "must": ["晨僵[\\s\\S]{0,40}(十五|15)\\s*分钟"]},
+
+    {"id": "C1-jan12-skin-p1", "src": "C1-jan12-skin", "user": "knee", "top_k": 100, "query": "大约1月12日抹了扶他林，皮肤出现什么状况？", "must": ["扶他林"], "any": ["淡粉红|发红|发热"]},
+    {"id": "C1-jan12-skin-p2", "src": "C1-jan12-skin", "user": "knee", "top_k": 100, "query": "after applying voltaren around Jan 12, what happened to my skin?", "must": ["扶他林"], "any": ["淡粉红|发红|发热"]},
+
+    {"id": "C1-feb02-province-p1", "src": "C1-feb02-province", "user": "knee", "top_k": 100, "query": "2月初去外地拍照回来，膝盖是什么状态？", "must": ["外省|草地"], "any": ["NRS\\s*[-－]?\\s*5|5\\s*分"]},
+    {"id": "C1-feb02-province-p2", "src": "C1-feb02-province", "user": "knee", "top_k": 100, "query": "how was my knee after the out-of-town shoot in early February?", "must": ["外省|草地"], "any": ["NRS\\s*[-－]?\\s*5|5\\s*分"]},
+
+    {"id": "C2-order-stop-p1", "src": "C2-order-stop", "user": "knee", "top_k": 100, "query": "扶他林和塞来昔布，哪一种先被我停掉？", "must": ["扶他林[\\s\\S]{0,60}停|停[\\s\\S]{0,60}扶他林"]},
+    {"id": "C2-order-stop-p2", "src": "C2-order-stop", "user": "knee", "top_k": 100, "query": "which did I stop first, voltaren or celecoxib?", "must": ["扶他林[\\s\\S]{0,60}停|停[\\s\\S]{0,60}扶他林"]},
+
+    {"id": "D1-latest-morning-p1", "src": "D1-latest-morning", "user": "knee", "top_k": 100, "query": "现在我的晨僵已经发展到多长时间了？", "must": ["晨僵[\\s\\S]{0,60}二十|二十[\\s\\S]{0,40}晨僵"]},
+    {"id": "D1-latest-morning-p2", "src": "D1-latest-morning", "user": "knee", "top_k": 100, "query": "what is my current morning stiffness duration?", "must": ["晨僵[\\s\\S]{0,60}二十|二十[\\s\\S]{0,40}晨僵"]},
+
+    {"id": "D2-morning-conflict-p1", "src": "D2-morning-conflict", "user": "knee", "top_k": 100, "query": "晨僵时长前后是怎么演变的？", "must": ["晨僵"], "any": ["十分钟|10\\s*分钟"]},
+    {"id": "D2-morning-conflict-p2", "src": "D2-morning-conflict", "user": "knee", "top_k": 100, "query": "how did my morning stiffness change over time?", "must": ["晨僵"], "any": ["十分钟|10\\s*分钟"]},
+
+    {"id": "E1-format-p1", "src": "E1-format", "user": "knee", "top_k": 100, "query": "自检清单你按我的要求该输出成什么样？", "must": ["三行"]},
+    {"id": "E1-format-p2", "src": "E1-format", "user": "knee", "top_k": 100, "query": "in what format did I want the self-check list?", "must": ["三行"]},
+
+    {"id": "B-workload-p1", "src": "B-workload", "user": "knee", "top_k": 100, "query": "每次外景拍摄要走多少路，装备有多重？", "must": ["公斤"], "any": ["十二|12|八|8"]},
+    {"id": "B-workload-p2", "src": "B-workload", "user": "knee", "top_k": 100, "query": "how long do I walk and how much gear do I carry on a shoot day?", "must": ["公斤"], "any": ["十二|12|八|8"]},
+
+    {"id": "F1-summary-zh-k100-p1", "src": "F1-summary-zh-k100", "user": "knee", "top_k": 100, "query": "把我们的对话从头到尾梳理一遍", "must": ["右膝"]},
+    {"id": "F1-summary-zh-k100-p2", "src": "F1-summary-zh-k100", "user": "knee", "top_k": 100, "query": "summarize everything from our conversation", "must": ["右膝"]},
+
+    {"id": "F1-summary-en-k500-p1", "src": "F1-summary-en-k500", "user": "knee", "top_k": 500, "query": "give me a full recap of all our chats", "must": ["右膝"]},
+    {"id": "F1-summary-en-k500-p2", "src": "F1-summary-en-k500", "user": "knee", "top_k": 500, "query": "总结我们讨论过的所有内容", "must": ["右膝"]},
+
+    {"id": "F1-summary-zh-k500-p1", "src": "F1-summary-zh-k500", "user": "knee", "top_k": 500, "query": "帮我回顾一下全部聊天记录", "must": ["右膝"]},
+    {"id": "F1-summary-zh-k500-p2", "src": "F1-summary-zh-k500", "user": "knee", "top_k": 500, "query": "recap the whole conversation we had", "must": ["右膝"]}
+  ]
+}

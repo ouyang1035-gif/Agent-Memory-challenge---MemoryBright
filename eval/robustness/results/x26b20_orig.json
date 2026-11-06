@@ -1,0 +1,342 @@
+{
+ "summary": {
+  "tag": "",
+  "all": {
+   "n": 16,
+   "hit@1": 0.562,
+   "hit@5": 0.75,
+   "hit@10": 0.812,
+   "mrr": 0.6536,
+   "avg_n": 40,
+   "p50_s": 6.67,
+   "p95_s": 16.11,
+   "abstain_rate": 0.0
+  },
+  "narrow": {
+   "n": 2,
+   "hit@1": 0.0,
+   "hit@5": 0.0,
+   "hit@10": 0.0,
+   "mrr": 0.0,
+   "avg_n": 40,
+   "p50_s": 16.11,
+   "p95_s": 16.11,
+   "abstain_rate": 0.0
+  },
+  "mid": {
+   "n": 11,
+   "hit@1": 0.545,
+   "hit@5": 0.818,
+   "hit@10": 0.909,
+   "mrr": 0.678,
+   "avg_n": 40,
+   "p50_s": 6.46,
+   "p95_s": 8.13,
+   "abstain_rate": 0.0
+  },
+  "wide": {
+   "n": 3,
+   "hit@1": 1.0,
+   "hit@5": 1.0,
+   "hit@10": 1.0,
+   "mrr": 1.0,
+   "avg_n": 40,
+   "p50_s": 6.77,
+   "p95_s": 6.99,
+   "abstain_rate": 0.0
+  },
+  "cat_A1": {
+   "n": 4,
+   "hit@1": 0.75,
+   "hit@5": 0.75,
+   "hit@10": 0.75,
+   "mrr": 0.75,
+   "avg_n": 40,
+   "p50_s": 6.99,
+   "p95_s": 16.11,
+   "abstain_rate": 0.0
+  },
+  "cat_A2": {
+   "n": 4,
+   "hit@1": 1.0,
+   "hit@5": 1.0,
+   "hit@10": 1.0,
+   "mrr": 1.0,
+   "avg_n": 40,
+   "p50_s": 6.77,
+   "p95_s": 8.13,
+   "abstain_rate": 0.0
+  },
+  "cat_B1": {
+   "n": 1,
+   "hit@1": 1.0,
+   "hit@5": 1.0,
+   "hit@10": 1.0,
+   "mrr": 1.0,
+   "avg_n": 40,
+   "p50_s": 6.46,
+   "p95_s": 6.46,
+   "abstain_rate": 0.0
+  },
+  "cat_C1": {
+   "n": 3,
+   "hit@1": 0.0,
+   "hit@5": 0.333,
+   "hit@10": 0.667,
+   "mrr": 0.1528,
+   "avg_n": 40,
+   "p50_s": 6.32,
+   "p95_s": 6.52,
+   "abstain_rate": 0.0
+  },
+  "cat_C2": {
+   "n": 1,
+   "hit@1": 0.0,
+   "hit@5": 1.0,
+   "hit@10": 1.0,
+   "mrr": 0.5,
+   "avg_n": 40,
+   "p50_s": 6.26,
+   "p95_s": 6.26,
+   "abstain_rate": 0.0
+  },
+  "cat_D1": {
+   "n": 1,
+   "hit@1": 0.0,
+   "hit@5": 0.0,
+   "hit@10": 0.0,
+   "mrr": 0.0,
+   "avg_n": 40,
+   "p50_s": 6.38,
+   "p95_s": 6.38,
+   "abstain_rate": 0.0
+  },
+  "cat_D2": {
+   "n": 1,
+   "hit@1": 1.0,
+   "hit@5": 1.0,
+   "hit@10": 1.0,
+   "mrr": 1.0,
+   "avg_n": 40,
+   "p50_s": 7.04,
+   "p95_s": 7.04,
+   "abstain_rate": 0.0
+  },
+  "cat_E1": {
+   "n": 1,
+   "hit@1": 0.0,
+   "hit@5": 1.0,
+   "hit@10": 1.0,
+   "mrr": 0.5,
+   "avg_n": 40,
+   "p50_s": 7.31,
+   "p95_s": 7.31,
+   "abstain_rate": 0.0
+  },
+  "coverage": {
+   "n": 3,
+   "cover_ratio": 1.0,
+   "cover_full": 1.0,
+   "avg_n": 366.7,
+   "p95_s": 0.25
+  }
+ },
+ "rows": [
+  {
+   "id": "A1-job",
+   "cat": "A1",
+   "variant": null,
+   "gold_count": 3,
+   "n": 40,
+   "rank": 0,
+   "elapsed": 16.11,
+   "gold_bucket": "narrow"
+  },
+  {
+   "id": "A1-side",
+   "cat": "A1",
+   "variant": null,
+   "gold_count": 88,
+   "n": 40,
+   "rank": 1,
+   "elapsed": 6.674,
+   "gold_bucket": "wide"
+  },
+  {
+   "id": "A1-peak-nrs",
+   "cat": "A1",
+   "variant": null,
+   "gold_count": 21,
+   "n": 40,
+   "rank": 1,
+   "elapsed": 6.987,
+   "gold_bucket": "wide"
+  },
+  {
+   "id": "A1-morning-first",
+   "cat": "A1",
+   "variant": null,
+   "gold_count": 16,
+   "n": 40,
+   "rank": 1,
+   "elapsed": 6.26,
+   "gold_bucket": "mid"
+  },
+  {
+   "id": "A2-who-celecoxib",
+   "cat": "A2",
+   "variant": null,
+   "gold_count": 13,
+   "n": 40,
+   "rank": 1,
+   "elapsed": 6.668,
+   "gold_bucket": "mid"
+  },
+  {
+   "id": "A2-anticoagulant",
+   "cat": "A2",
+   "variant": null,
+   "gold_count": 37,
+   "n": 40,
+   "rank": 1,
+   "elapsed": 6.772,
+   "gold_bucket": "wide"
+  },
+  {
+   "id": "A2-allergy",
+   "cat": "A2",
+   "variant": null,
+   "gold_count": 11,
+   "n": 40,
+   "rank": 1,
+   "elapsed": 6.324,
+   "gold_bucket": "mid"
+  },
+  {
+   "id": "A2-who-advised-stop",
+   "cat": "A2",
+   "variant": null,
+   "gold_count": 12,
+   "n": 40,
+   "rank": 1,
+   "elapsed": 8.131,
+   "gold_bucket": "mid"
+  },
+  {
+   "id": "C1-jan20-morning",
+   "cat": "C1",
+   "variant": null,
+   "gold_count": 20,
+   "n": 40,
+   "rank": 3,
+   "elapsed": 6.316,
+   "gold_bucket": "mid"
+  },
+  {
+   "id": "C1-jan12-skin",
+   "cat": "C1",
+   "variant": null,
+   "gold_count": 10,
+   "n": 40,
+   "rank": 8,
+   "elapsed": 6.516,
+   "gold_bucket": "mid"
+  },
+  {
+   "id": "C1-feb02-province",
+   "cat": "C1",
+   "variant": null,
+   "gold_count": 13,
+   "n": 40,
+   "rank": 0,
+   "elapsed": 6.122,
+   "gold_bucket": "mid"
+  },
+  {
+   "id": "C2-order-stop",
+   "cat": "C2",
+   "variant": null,
+   "gold_count": 11,
+   "n": 40,
+   "rank": 2,
+   "elapsed": 6.26,
+   "gold_bucket": "mid"
+  },
+  {
+   "id": "D1-latest-morning",
+   "cat": "D1",
+   "variant": null,
+   "gold_count": 3,
+   "n": 40,
+   "rank": 0,
+   "elapsed": 6.383,
+   "gold_bucket": "narrow"
+  },
+  {
+   "id": "D2-morning-conflict",
+   "cat": "D2",
+   "variant": null,
+   "gold_count": 18,
+   "n": 40,
+   "rank": 1,
+   "elapsed": 7.038,
+   "gold_bucket": "mid"
+  },
+  {
+   "id": "E1-format",
+   "cat": "E1",
+   "variant": null,
+   "gold_count": 7,
+   "n": 40,
+   "rank": 2,
+   "elapsed": 7.306,
+   "gold_bucket": "mid"
+  },
+  {
+   "id": "B-workload",
+   "cat": "B1",
+   "variant": null,
+   "gold_count": 18,
+   "n": 40,
+   "rank": 1,
+   "elapsed": 6.457,
+   "gold_bucket": "mid"
+  },
+  {
+   "id": "F1-summary-zh-k100",
+   "cat": "F1",
+   "variant": null,
+   "gold_count": 88,
+   "n": 100,
+   "rank": 1,
+   "elapsed": 0.099,
+   "gold_bucket": "coverage",
+   "cover_ratio": 1.0,
+   "cover_miss": []
+  },
+  {
+   "id": "F1-summary-en-k500",
+   "cat": "F1",
+   "variant": null,
+   "gold_count": 88,
+   "n": 500,
+   "rank": 1,
+   "elapsed": 0.249,
+   "gold_bucket": "coverage",
+   "cover_ratio": 1.0,
+   "cover_miss": []
+  },
+  {
+   "id": "F1-summary-zh-k500",
+   "cat": "F1",
+   "variant": null,
+   "gold_count": 88,
+   "n": 500,
+   "rank": 1,
+   "elapsed": 0.092,
+   "gold_bucket": "coverage",
+   "cover_ratio": 1.0,
+   "cover_miss": []
+  }
+ ]
+}

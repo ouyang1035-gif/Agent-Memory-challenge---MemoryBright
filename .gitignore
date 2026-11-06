@@ -1,0 +1,51 @@
+# ---------- 密钥与凭据（严禁提交）----------
+.env
+.env.local
+.env.*.local
+credentials.csv
+api.txt
+*_token.txt
+*_secret*
+!.env.example
+
+# ---------- 模型与大体积运行态数据 ----------
+models/
+tencentdb-real-data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.pkl
+*.bin
+qdrant_storage/
+store/
+*_store/
+*/store/
+*.store/
+
+# ---------- 原始归档（迁移自 /workspace 根目录，含评测 store，不入库）----------
+archive/
+
+# ---------- 第三方参考仓库（体积大，需单独 clone）----------
+TencentDB-Agent-Memory-feat-server_team/
+Agent-Memory-Challenge-server-20260929/
+pipeline-report-*.tgz
+
+# ---------- 日志（保留 logs/ 下的压缩归档）----------
+*.log
+*.log.[0-9]*
+!logs/*.gz
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ---------- 系统 ----------
+.DS_Store
+Thumbs.db

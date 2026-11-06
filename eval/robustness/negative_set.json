@@ -1,0 +1,10 @@
+{
+  "_doc": "不可回答探测：这些事实在 knee 的记忆库里不存在（已用 SQL 校验 0 命中）。用于观察「换一批问题」时系统是否会硬凑无关记忆（过度作答），这是泛化到新问题时的典型风险。",
+  "items": [
+    {"id": "N-penicillin", "user": "knee", "top_k": 100, "query": "我对青霉素过敏吗？", "probe": "青霉素", "negative": true},
+    {"id": "N-bp", "user": "knee", "top_k": 100, "query": "我最近血压是多少？", "probe": "血压", "negative": true},
+    {"id": "N-dog", "user": "knee", "top_k": 100, "query": "我养的是什么品种的狗？", "probe": "狗", "negative": true},
+    {"id": "N-yoga", "user": "knee", "top_k": 100, "query": "我每周做几次瑜伽？", "probe": "瑜伽", "negative": true},
+    {"id": "N-diabetes", "user": "knee", "top_k": 100, "query": "我有糖尿病吗？", "probe": "糖尿病", "negative": true}
+  ]
+}
